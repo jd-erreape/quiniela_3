@@ -1,6 +1,10 @@
 name: Ruby
 
-on: [push,pull_request]
+on:
+  push:
+    branches:
+    - master
+  pull_request:
 
 jobs:
   build:
@@ -12,5 +16,11 @@ jobs:
       with:
         ruby-version: 3.0.2
         bundler-cache: true
-    - name: Run the default task
+    # If we are merging to master we run
+    # the suite without mocking external requests
+    - if: github.ref == 'refs/heads/master'
+      run: BYPASS_VCR=true bundle exec rake
+    # Any other case we run our task without
+    # bypassing VCR cassettes
+    - if: github.ref != 'refs/heads/master'
       run: bundle exec rake
