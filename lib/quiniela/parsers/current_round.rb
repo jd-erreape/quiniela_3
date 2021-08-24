@@ -14,6 +14,12 @@ module Quiniela
                     .to_i
       end
 
+      # Returns a multidimensional array of length 15 where each of the elements is an array
+      # containing the home and away team belonging to the match
+      def matches
+        @matches ||= first_matches + [match15]
+      end
+
       private
 
       def current_round_page
@@ -22,6 +28,23 @@ module Quiniela
 
       def client_response
         Clients::CurrentRound.new.page.body
+      end
+
+      def first_matches
+        current_round_page
+          .css(".nombre-equipos")
+          .take(14)
+          .map do |match|
+            match.css(".nombre").map(&:text)
+          end
+      end
+
+      def match15
+        current_round_page
+          .css(".nombre-equipos")
+          .last
+          .css(".equipo")
+          .map(&:text)
       end
     end
   end
