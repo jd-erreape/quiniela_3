@@ -2,7 +2,12 @@
 
 require_relative "quiniela/version"
 
+require "httparty"
+
 module Quiniela
   class Error < StandardError; end
-  # Your code goes here...
+
+  module Clients
+    autoload :CurrentRound, "quiniela/clients/current_round"
+  end
 end
