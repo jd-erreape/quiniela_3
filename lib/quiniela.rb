@@ -9,7 +9,9 @@ module Quiniela
   class Error < StandardError; end
 
   module Clients
+    autoload :Base, "quiniela/clients/base"
     autoload :CurrentRound, "quiniela/clients/current_round"
+    autoload :Results, "quiniela/clients/results"
   end
 
   module Parsers

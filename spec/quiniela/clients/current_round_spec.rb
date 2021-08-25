@@ -1,20 +1,9 @@
 # frozen_string_literal: true
 
+require_relative "./shared/a_client"
+
 RSpec.describe Quiniela::Clients::CurrentRound do
-  describe ".base_uri" do
-    subject { described_class.base_uri }
-
-    it { should eq("https://juegos.loteriasyapuestas.es") }
-  end
-
-  describe "#page" do
-    subject { described_class.new.page }
-
-    it "retrieves the current round from the third party service", :vcr do
-      response = subject
-
-      expect(response.code).to eq(200)
-      expect(response.content_type).to eq("text/html")
-    end
+  it_behaves_like "a client" do
+    let(:base_uri) { "https://juegos.loteriasyapuestas.es" }
   end
 end
