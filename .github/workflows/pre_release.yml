@@ -9,7 +9,7 @@ on:
 
 jobs:
   changelog_pre_release:
-    name: Update Changelog For Pre Release
+    name: Update Changelog for Pre Release
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
