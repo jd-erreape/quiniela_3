@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased](https://github.com/jd-erreape/quiniela/tree/HEAD)
+## [v0.1.0](https://github.com/jd-erreape/quiniela/tree/v0.1.0) (2021-08-29)
 
 **Fixed bugs:**
 
