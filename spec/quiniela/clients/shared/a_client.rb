@@ -7,14 +7,14 @@ RSpec.shared_examples "a client" do
     it { should eq(base_uri) }
   end
 
-  describe "#page" do
-    subject { described_class.new.page }
+  describe "#get" do
+    subject { described_class.new.get }
 
     it "retrieves the given page from the third party service", :vcr do
       response = subject
 
       expect(response.code).to eq(200)
-      expect(response.content_type).to eq("text/html")
+      expect(response.content_type).to eq(content_type)
     end
   end
 end

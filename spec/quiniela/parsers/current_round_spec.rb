@@ -3,18 +3,18 @@
 RSpec.describe Quiniela::Parsers::CurrentRound do
   let(:instance) { described_class.new }
 
-  describe "#number" do
+  describe "#number", :vcr do
     subject { instance.number }
 
-    it "returns the number of the current quiniela's round", :vcr do
+    it "returns the number of the current quiniela's round" do
       expect(subject).to be > 0
     end
   end
 
-  describe "#matches" do
+  describe "#matches", :vcr do
     subject { instance.matches }
 
-    it "returns the multidimensional array with all current quiniela's round matches", :vcr do
+    it "returns the multidimensional array with all current quiniela's round matches" do
       expect(subject.length).to be(15)
       expect(subject.class).to be(Array)
       expect(subject.first.class).to be(Array)

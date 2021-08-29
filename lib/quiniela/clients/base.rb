@@ -2,13 +2,21 @@
 
 module Quiniela
   module Clients
-    # Access third party service to retrieve the page where
-    # info regarding the current quiniela round can be found
+    # Base client which will be inherited by specific
+    # clients when accessing Quiniela services
     class Base
       include HTTParty
 
-      def page
-        self.class.get(self.class::ENDPOINT)
+      def initialize(*params); end
+
+      def get
+        self.class.get(self.class::ENDPOINT, { query: query })
+      end
+
+      protected
+
+      def query
+        {}
       end
     end
   end
