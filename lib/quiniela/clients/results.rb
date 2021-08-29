@@ -7,7 +7,34 @@ module Quiniela
     class Results < Base
       base_uri "https://www.loteriasyapuestas.es"
 
-      ENDPOINT = "/es/resultados/quiniela"
+      ENDPOINT = "/servicios/buscadorSorteos"
+      FOUR_MONTHS = 3600 * 24 * 31 * 4
+
+      def initialize(start_date: Time.now - FOUR_MONTHS, end_date: Time.now)
+        @start_date = start_date
+        @end_date = end_date
+
+        super
+      end
+
+      protected
+
+      def query
+        {
+          game_id: "LAQU",
+          celebrados: true,
+          fechaInicioInclusiva: parsed_date(start_date),
+          fechaFinInclusiva: parsed_date(end_date)
+        }
+      end
+
+      private
+
+      attr_reader :start_date, :end_date
+
+      def parsed_date(date)
+        date.strftime("%Y%m%d")
+      end
     end
   end
 end

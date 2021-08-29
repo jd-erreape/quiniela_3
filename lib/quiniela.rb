@@ -16,5 +16,6 @@ module Quiniela
 
   module Parsers
     autoload :CurrentRound, "quiniela/parsers/current_round"
+    autoload :Results, "quiniela/parsers/results"
   end
 end

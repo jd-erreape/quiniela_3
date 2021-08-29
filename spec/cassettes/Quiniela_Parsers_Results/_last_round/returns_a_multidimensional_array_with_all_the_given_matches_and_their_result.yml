@@ -1,0 +1,952 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.loteriasyapuestas.es/servicios/buscadorSorteos?celebrados=true&fechaFinInclusiva=20210829&fechaInicioInclusiva=20210427&game_id=LAQU
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Set-Cookie:
+      - cms=AMGSL4F6b8Eh/oIUY7JNNQ$$; Path=/; Secure
+      Date:
+      - Sun, 29 Aug 2021 09:44:10 GMT
+      Server:
+      - Apache
+      X-Frame-Options:
+      - SAMEORIGIN
+      Strict-Transport-Security:
+      - max-age=15768000; includeSubdomains;
+      Content-Type:
+      - application/json;charset=UTF-8
+      Vary:
+      - Accept-Encoding,User-Agent
+      Cache-Control:
+      - no-transform
+      X-Xss-Protection:
+      - 1; mode=block
+      Content-Length:
+      - '11580'
+      X-Varnish:
+      - 36071562 36185797
+      Age:
+      - '717'
+      Via:
+      - 1.1 varnish (Varnish/6.0)
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '2'
+      Accept-Ranges:
+      - bytes
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"fecha_sorteo":"2021-08-29 00:00:00","dia_semana":"domingo","id_sorteo":"1138306042","game_id":"LAQU","anyo":"2021","numero":42,"premio_bote":"0","cdc":"11383","apuestas":"0","recaudacion":null,"combinacion":null,"premios":"0","fondo_bote":"0","escrutinio":[],"partidos":[{"posicion":1,"idLocal":111,"local":"Celta","idVisitante":1,"visitante":"Athletic
+        Club","signo":"2","marcador":"0 - 1","fecha":"28-08-2021","hora":"17:00","fecha_completa":"2021-08-28
+        17:00:00"},{"posicion":2,"idLocal":125,"local":"Real Sociedad","idVisitante":6,"visitante":"Levante","signo":"1","marcador":"1
+        - 0","fecha":"28-08-2021","hora":"19:30","fecha_completa":"2021-08-28 19:30:00"},{"posicion":3,"idLocal":131,"local":"Elche","idVisitante":17,"visitante":"Sevilla","signo":"X","marcador":"1
+        - 1","fecha":"28-08-2021","hora":"19:30","fecha_completa":"2021-08-28 19:30:00"},{"posicion":4,"idLocal":11,"local":"Betis","idVisitante":12,"visitante":"Real
+        Madrid","signo":"2","marcador":"0 - 1","fecha":"28-08-2021","hora":"22:00","fecha_completa":"2021-08-28
+        22:00:00"},{"posicion":5,"idLocal":4,"local":"Barcelona","idVisitante":5,"visitante":"Getafe","signo":null,"marcador":null,"fecha":"29-08-2021","hora":"17:00","fecha_completa":"2021-08-29
+        17:00:00"},{"posicion":6,"idLocal":110,"local":"C\u00e1diz","idVisitante":2,"visitante":"Osasuna","signo":null,"marcador":null,"fecha":"29-08-2021","hora":"19:30","fecha_completa":"2021-08-29
+        19:30:00"},{"posicion":7,"idLocal":156,"local":"Rayo Vallecano","idVisitante":564,"visitante":"Granada","signo":null,"marcador":null,"fecha":"29-08-2021","hora":"19:30","fecha_completa":"2021-08-29
+        19:30:00"},{"posicion":8,"idLocal":3539,"local":"Amorebieta","idVisitante":18,"visitante":"Almer\u00eda","signo":null,"marcador":null,"fecha":"29-08-2021","hora":"17:00","fecha_completa":"2021-08-29
+        17:00:00"},{"posicion":9,"idLocal":1000,"local":"R. Oviedo","idVisitante":108,"visitante":"Tenerife","signo":"X","marcador":"0
+        - 0","fecha":"28-08-2021","hora":"19:30","fecha_completa":"2021-08-28 19:30:00"},{"posicion":10,"idLocal":1151,"local":"Legan\u00e9s","idVisitante":3537,"visitante":"Ibiza","signo":"2","marcador":"1
+        - 2","fecha":"28-08-2021","hora":"19:30","fecha_completa":"2021-08-28 19:30:00"},{"posicion":11,"idLocal":745,"local":"Ponferradina","idVisitante":166,"visitante":"Girona","signo":"1","marcador":"2
+        - 1","fecha":"28-08-2021","hora":"22:00","fecha_completa":"2021-08-28 22:00:00"},{"posicion":12,"idLocal":107,"local":"Sporting","idVisitante":965,"visitante":"Mirand\u00e9s","signo":"1","marcador":"2
+        - 1","fecha":"28-08-2021","hora":"17:00","fecha_completa":"2021-08-28 17:00:00"},{"posicion":13,"idLocal":826,"local":"Lugo","idVisitante":15,"visitante":"Valladolid","signo":null,"marcador":null,"fecha":"29-08-2021","hora":"19:30","fecha_completa":"2021-08-29
+        19:30:00"},{"posicion":14,"idLocal":939,"local":"Burgos","idVisitante":124,"visitante":"Eibar","signo":null,"marcador":null,"fecha":"29-08-2021","hora":"22:00","fecha_completa":"2021-08-29
+        22:00:00"},{"posicion":15,"idLocal":3,"local":"At. Madrid","idVisitante":20,"visitante":"Villarreal","signo":null,"marcador":null,"fecha":"29-08-2021","hora":"22:00","fecha_completa":"2021-08-29
+        22:00:00"}],"temporada":"2021-2022","jornada":"3","contenidosRelacionados":{"noticias":[],"enlaces":[],"puntosDeVenta":[],"documentos":[],"imagenes":[],"preguntasFrecuentes":[],"paginasLibres":[]},"elige8":{"gameid":"ELG8","relsorteoid_asociado":"1138313042","activo":"1"},"escrutinioElige8":[]},{"fecha_sorteo":"2021-08-22
+        00:37:00","dia_semana":"domingo","id_sorteo":"1137606041","game_id":"LAQU","anyo":"2021","numero":41,"premio_bote":"0","cdc":"11376","apuestas":"3506266","recaudacion":"262969950","combinacion":"2
+        - X - X - X - 1 - 1 - X - 2 - X - X - 2 - X - X - 1 - 00","premios":"144633473","fondo_bote":"0","escrutinio":[{"tipo":"Pleno
+        al 15 ","categoria":1,"premio":"0","ganadores":"0"},{"tipo":"1\u00aa (14 Aciertos)
+        ","categoria":2,"premio":"210375,96","ganadores":"2"},{"tipo":"2\u00aa (13
+        Aciertos) ","categoria":3,"premio":"3081,68","ganadores":"64"},{"tipo":"3\u00aa
+        (12 Aciertos) ","categoria":4,"premio":"248,08","ganadores":"795"},{"tipo":"4\u00aa
+        (11 Aciertos) ","categoria":5,"premio":"30,21","ganadores":"6528"},{"tipo":"5\u00aa
+        (10 Aciertos) ","categoria":6,"premio":"6,81","ganadores":"34738"}],"partidos":[{"posicion":1,"idLocal":374,"local":"Alav\u00e9s","idVisitante":10,"visitante":"Mallorca","signo":"2
+        ","marcador":"0 - 1","fecha":"21-08-2021","hora":"17:00","fecha_completa":"2021-08-21
+        17:00:00"},{"posicion":2,"idLocal":564,"local":"Granada","idVisitante":19,"visitante":"Valencia","signo":"X
+        ","marcador":"1 - 1","fecha":"21-08-2021","hora":"19:30","fecha_completa":"2021-08-21
+        19:30:00"},{"posicion":3,"idLocal":9,"local":"Espanyol","idVisitante":20,"visitante":"Villarreal","signo":"X
+        ","marcador":"0 - 0","fecha":"21-08-2021","hora":"19:30","fecha_completa":"2021-08-21
+        19:30:00"},{"posicion":4,"idLocal":1,"local":"Athletic Club","idVisitante":4,"visitante":"Barcelona","signo":"X
+        ","marcador":"1 - 1","fecha":"21-08-2021","hora":"22:00","fecha_completa":"2021-08-21
+        22:00:00"},{"posicion":5,"idLocal":125,"local":"Real Sociedad","idVisitante":156,"visitante":"Rayo
+        Vallecano","signo":"1 ","marcador":"1 - 0","fecha":"22-08-2021","hora":"17:00","fecha_completa":"2021-08-22
+        17:00:00"},{"posicion":6,"idLocal":3,"local":"At. Madrid","idVisitante":131,"visitante":"Elche","signo":"1
+        ","marcador":"1 - 0","fecha":"22-08-2021","hora":"19:30","fecha_completa":"2021-08-22
+        19:30:00"},{"posicion":7,"idLocal":6,"local":"Levante","idVisitante":12,"visitante":"Real
+        Madrid","signo":"X ","marcador":"3 - 3","fecha":"22-08-2021","hora":"22:00","fecha_completa":"2021-08-22
+        22:00:00"},{"posicion":8,"idLocal":5,"local":"Getafe","idVisitante":17,"visitante":"Sevilla","signo":"2
+        ","marcador":"0 - 1","fecha":"23-08-2021","hora":"20:00","fecha_completa":"2021-08-23
+        20:00:00"},{"posicion":9,"idLocal":826,"local":"Lugo","idVisitante":3536,"visitante":"Real
+        Sociedad B","signo":"X ","marcador":"0 - 0","fecha":"21-08-2021","hora":"17:00","fecha_completa":"2021-08-21
+        17:00:00"},{"posicion":10,"idLocal":108,"local":"Tenerife","idVisitante":107,"visitante":"Sporting","signo":"X
+        ","marcador":"0 - 0","fecha":"21-08-2021","hora":"19:30","fecha_completa":"2021-08-21
+        19:30:00"},{"posicion":11,"idLocal":604,"local":"Alcorc\u00f3n","idVisitante":2589,"visitante":"Fuenlabrada","signo":"2
+        ","marcador":"0 - 2","fecha":"21-08-2021","hora":"22:00","fecha_completa":"2021-08-21
+        22:00:00"},{"posicion":12,"idLocal":3537,"local":"Ibiza","idVisitante":113,"visitante":"M\u00e1laga","signo":"X
+        ","marcador":"2 - 2","fecha":"22-08-2021","hora":"17:00","fecha_completa":"2021-08-22
+        17:00:00"},{"posicion":13,"idLocal":166,"local":"Girona","idVisitante":126,"visitante":"Las
+        Palmas","signo":"X ","marcador":"0 - 0","fecha":"22-08-2021","hora":"19:30","fecha_completa":"2021-08-22
+        19:30:00"},{"posicion":14,"idLocal":200,"local":"Huesca","idVisitante":533,"visitante":"Cartagena","signo":"1
+        ","marcador":"2 - 0","fecha":"22-08-2021","hora":"22:00","fecha_completa":"2021-08-22
+        22:00:00"},{"posicion":15,"idLocal":2,"local":"Osasuna","idVisitante":111,"visitante":"Celta","signo":"0-0","marcador":"0
+        - 0","fecha":"23-08-2021","hora":"22:00","fecha_completa":"2021-08-23 22:00:00"}],"temporada":"2021-2022","jornada":"2","contenidosRelacionados":{"noticias":[{"tituloRelacion":"Resultado
+        Automatico","tituloContenido":"La Quiniela: resultados del 22 de agosto de
+        2021","urlContenido":"/la-quiniela/resultados/la-quiniela-resultados-del-22-de-agosto-de-2021"},{"tituloRelacion":"Escrutinio
+        Automatico","tituloContenido":"La Quiniela: premios y ganadores del 22 de
+        agosto de 2021","urlContenido":"/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-22-de-agosto-de-2021"},{"tituloRelacion":"Premio
+        Automatico 2","tituloContenido":"Premio de 14 aciertos de La Quiniela del
+        22 de agosto de 2021","urlContenido":"/premios/premio-de-14-aciertos-de-la-quiniela-del-22-de-agosto-de-2021"}],"enlaces":[],"puntosDeVenta":[],"documentos":[{"tituloRelacion":null,"tituloContenido":"Nota
+        de prensa del sorteo del 22/08/2021 Quiniela","urlContenido":"/f/loterias/documentos/Quiniela/Notas
+        de prensa/NOTA_DE_PRENSA_DE_LA_QUINIELA_DE_FECHA_22_8_21.pdf"}],"imagenes":[],"preguntasFrecuentes":[],"paginasLibres":[]},"elige8":{"gameid":"ELG8","relsorteoid_asociado":"1137613041","activo":"1"},"escrutinioElige8":[{"tipo":"8
+        Acertados 8 ","categoria":1,"premio":"453,21","ganadores":"89"}]},{"fecha_sorteo":"2021-08-15
+        00:02:00","dia_semana":"domingo","id_sorteo":"1136906040","game_id":"LAQU","anyo":"2021","numero":40,"premio_bote":"1100000","cdc":"11369","apuestas":"3223517","recaudacion":"241763775","combinacion":"X
+        - X - X - 2 - 2 - 1 - 1 - X - 1 - 1 - 1 - X - X - 2 - 00","premios":"132970076","fondo_bote":"29820072","escrutinio":[{"tipo":"Pleno
+        al 15 ","categoria":1,"premio":"479523,55","ganadores":"1"},{"tipo":"1\u00aa
+        (14 Aciertos) ","categoria":2,"premio":"24176,38","ganadores":"16"},{"tipo":"2\u00aa
+        (13 Aciertos) ","categoria":3,"premio":"472,19","ganadores":"384"},{"tipo":"3\u00aa
+        (12 Aciertos) ","categoria":4,"premio":"40,23","ganadores":"4507"},{"tipo":"4\u00aa
+        (11 Aciertos) ","categoria":5,"premio":"6,8","ganadores":"26651"},{"tipo":"5\u00aa
+        (10 Aciertos) ","categoria":6,"premio":"2,1","ganadores":"103695"}],"partidos":[{"posicion":1,"idLocal":2,"local":"Osasuna","idVisitante":9,"visitante":"Espanyol","signo":"X
+        ","marcador":"0 - 0","fecha":"14-08-2021","hora":"22:00","fecha_completa":"2021-08-14
+        22:00:00"},{"posicion":2,"idLocal":10,"local":"Mallorca","idVisitante":11,"visitante":"Betis","signo":"X
+        ","marcador":"1 - 1","fecha":"14-08-2021","hora":"19:30","fecha_completa":"2021-08-14
+        19:30:00"},{"posicion":3,"idLocal":110,"local":"C\u00e1diz","idVisitante":6,"visitante":"Levante","signo":"X
+        ","marcador":"1 - 1","fecha":"14-08-2021","hora":"19:30","fecha_completa":"2021-08-14
+        19:30:00"},{"posicion":4,"idLocal":374,"local":"Alav\u00e9s","idVisitante":12,"visitante":"Real
+        Madrid","signo":"2 ","marcador":"1 - 4","fecha":"14-08-2021","hora":"22:00","fecha_completa":"2021-08-14
+        22:00:00"},{"posicion":5,"idLocal":111,"local":"Celta","idVisitante":3,"visitante":"At.
+        Madrid","signo":"2 ","marcador":"1 - 2","fecha":"15-08-2021","hora":"17:30","fecha_completa":"2021-08-15
+        17:30:00"},{"posicion":6,"idLocal":4,"local":"Barcelona","idVisitante":125,"visitante":"Real
+        Sociedad","signo":"1 ","marcador":"4 - 2","fecha":"15-08-2021","hora":"20:00","fecha_completa":"2021-08-15
+        20:00:00"},{"posicion":7,"idLocal":17,"local":"Sevilla","idVisitante":156,"visitante":"Rayo
+        Vallecano","signo":"1 ","marcador":"3 - 0","fecha":"15-08-2021","hora":"22:15","fecha_completa":"2021-08-15
+        22:15:00"},{"posicion":8,"idLocal":20,"local":"Villarreal","idVisitante":564,"visitante":"Granada","signo":"X
+        ","marcador":"0 - 0","fecha":"16-08-2021","hora":"20:00","fecha_completa":"2021-08-16
+        20:00:00"},{"posicion":9,"idLocal":1133,"local":"R. Sociedad B","idVisitante":1151,"visitante":"Legan\u00e9s","signo":"1
+        ","marcador":"1 - 0","fecha":"14-08-2021","hora":"17:00","fecha_completa":"2021-08-14
+        17:00:00"},{"posicion":10,"idLocal":745,"local":"Ponferradina","idVisitante":604,"visitante":"Alcorc\u00f3n","signo":"1
+        ","marcador":"1 - 0","fecha":"14-08-2021","hora":"22:00","fecha_completa":"2021-08-14
+        22:00:00"},{"posicion":11,"idLocal":107,"local":"Sporting","idVisitante":939,"visitante":"Burgos","signo":"1
+        ","marcador":"1 - 0","fecha":"15-08-2021","hora":"17:00","fecha_completa":"2021-08-15
+        17:00:00"},{"posicion":12,"idLocal":1000,"local":"R. Oviedo","idVisitante":826,"visitante":"Lugo","signo":"X
+        ","marcador":"2 - 2","fecha":"15-08-2021","hora":"19:30","fecha_completa":"2021-08-15
+        19:30:00"},{"posicion":13,"idLocal":126,"local":"Las Palmas","idVisitante":15,"visitante":"Valladolid","signo":"X
+        ","marcador":"1 - 1","fecha":"15-08-2021","hora":"22:00","fecha_completa":"2021-08-15
+        22:00:00"},{"posicion":14,"idLocal":2589,"local":"Fuenlabrada","idVisitante":108,"visitante":"Tenerife","signo":"2
+        ","marcador":"1 - 2","fecha":"15-08-2021","hora":"22:00","fecha_completa":"2021-08-15
+        22:00:00"},{"posicion":15,"idLocal":131,"local":"Elche","idVisitante":1,"visitante":"Athletic
+        Club","signo":"0-0","marcador":"0 - 0","fecha":"16-08-2021","hora":"22:00","fecha_completa":"2021-08-16
+        22:00:00"}],"temporada":null,"jornada":"1","contenidosRelacionados":{"noticias":[{"tituloRelacion":"Premio
+        Automatico 2","tituloContenido":"Premio de 14 aciertos de La Quiniela del
+        15 de agosto de 2021","urlContenido":"/premios/premio-de-14-aciertos-de-la-quiniela-del-15-de-agosto-de-2021"},{"tituloRelacion":"Premio
+        Automatico","tituloContenido":"Pleno al 15 de La Quiniela del 15 de agosto
+        de 2021","urlContenido":"/premios/pleno-al-15-de-la-quiniela-del-15-de-agosto-de-2021"},{"tituloRelacion":"Resultado
+        Automatico","tituloContenido":"La Quiniela: resultados del 15 de agosto de
+        2021","urlContenido":"/la-quiniela/resultados/la-quiniela-resultados-del-15-de-agosto-de-2021"},{"tituloRelacion":"Escrutinio
+        Automatico","tituloContenido":"La Quiniela: premios y ganadores del 15 de
+        agosto de 2021","urlContenido":"/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-15-de-agosto-de-2021"},{"tituloRelacion":"Bote
+        Automatico","tituloContenido":"La Quiniela: bote de 1.100.000\u20ac","urlContenido":"/la-quiniela/botes/la-quiniela-bote-de-1-100-000euro-15-de-agosto-de-2021"}],"enlaces":[],"puntosDeVenta":[],"documentos":[{"tituloRelacion":null,"tituloContenido":"Nota
+        de prensa del sorteo del 15/08/2021 Quiniela","urlContenido":"/f/loterias/documentos/Quiniela/Notas
+        de prensa/NOTA_DE_PRENSA_DE_LA_QUINIELA_DE_FECHA_15_8_21.pdf"}],"imagenes":[],"preguntasFrecuentes":[],"paginasLibres":[]},"elige8":{"gameid":"ELG8","relsorteoid_asociado":"1136913040","activo":"1"},"escrutinioElige8":[{"tipo":"8
+        Acertados 8 ","categoria":1,"premio":"88,3","ganadores":"413"}]},{"fecha_sorteo":"2021-08-08
+        07:56:00","dia_semana":"domingo","id_sorteo":"1136206039","game_id":"LAQU","anyo":"2021","numero":39,"premio_bote":"300000","cdc":"11362","apuestas":"857021","recaudacion":"64276575","combinacion":"X
+        - 1 - 2 - X - 2 - 2 - 1 - X - X - 2 - 1 - 1 - X - 2 - 2M","premios":"35352116","fondo_bote":"14715077","escrutinio":[{"tipo":"Pleno
+        al 15 ","categoria":1,"premio":"0","ganadores":"0"},{"tipo":"1\u00aa (14 Aciertos)
+        ","categoria":2,"premio":"0","ganadores":"0"},{"tipo":"2\u00aa (13 Aciertos)
+        ","categoria":3,"premio":"0","ganadores":"0"},{"tipo":"3\u00aa (12 Aciertos)
+        ","categoria":4,"premio":"2605,81","ganadores":"37"},{"tipo":"4\u00aa (11
+        Aciertos) ","categoria":5,"premio":"123,61","ganadores":"390"},{"tipo":"5\u00aa
+        (10 Aciertos) ","categoria":6,"premio":"21,04","ganadores":"2750"}],"partidos":[{"posicion":1,"idLocal":3436,"local":"Cuiab\u00e1","idVisitante":2327,"visitante":"Bahia","signo":"X
+        ","marcador":"1 - 1","fecha":"08-08-2021","hora":"02:00","fecha_completa":"2021-08-08
+        02:00:00"},{"posicion":2,"idLocal":1111,"local":"Gremio","idVisitante":1392,"visitante":"Chapecoense","signo":"1
+        ","marcador":"2 - 1","fecha":"10-08-2021","hora":"01:00","fecha_completa":"2021-08-10
+        01:00:00"},{"posicion":3,"idLocal":3478,"local":"Juventude","idVisitante":2325,"visitante":"At.
+        Mineiro","signo":"2 ","marcador":"1 - 2","fecha":"08-08-2021","hora":"21:00","fecha_completa":"2021-08-08
+        21:00:00"},{"posicion":4,"idLocal":2340,"local":"Cear\u00e1","idVisitante":3450,"visitante":"Atletico
+        Go","signo":"X ","marcador":"0 - 0","fecha":"08-08-2021","hora":"23:15","fecha_completa":"2021-08-08
+        23:15:00"},{"posicion":5,"idLocal":1387,"local":"Flamengo","idVisitante":1428,"visitante":"Internacional","signo":"2
+        ","marcador":"0 - 4","fecha":"08-08-2021","hora":"23:15","fecha_completa":"2021-08-08
+        23:15:00"},{"posicion":6,"idLocal":1423,"local":"At. Paranaense","idVisitante":1385,"visitante":"Sao
+        Paulo","signo":"2 ","marcador":"1 - 2","fecha":"07-08-2021","hora":"23:00","fecha_completa":"2021-08-07
+        23:00:00"},{"posicion":7,"idLocal":2333,"local":"Am\u00e9rica Mineiro","idVisitante":1427,"visitante":"Fluminense","signo":"1
+        ","marcador":"1 - 0","fecha":"08-08-2021","hora":"21:00","fecha_completa":"2021-08-08
+        21:00:00"},{"posicion":8,"idLocal":2380,"local":"Halmstad","idVisitante":1302,"visitante":"Malmo","signo":"X
+        ","marcador":"0 - 0","fecha":"07-08-2021","hora":"17:30","fecha_completa":"2021-08-07
+        17:30:00"},{"posicion":9,"idLocal":1960,"local":"Orebro","idVisitante":3527,"visitante":"Mjallby","signo":"X
+        ","marcador":"2 - 2","fecha":"07-08-2021","hora":"17:30","fecha_completa":"2021-08-07
+        17:30:00"},{"posicion":10,"idLocal":2412,"local":"Djurgardens","idVisitante":2780,"visitante":"Aik
+        Solna","signo":"2 ","marcador":"1 - 4","fecha":"08-08-2021","hora":"15:00","fecha_completa":"2021-08-08
+        15:00:00"},{"posicion":11,"idLocal":1957,"local":"Hacken","idVisitante":1974,"visitante":"Ostersunds","signo":"1
+        ","marcador":"5 - 0","fecha":"08-08-2021","hora":"15:00","fecha_completa":"2021-08-08
+        15:00:00"},{"posicion":12,"idLocal":1966,"local":"Elfsborg","idVisitante":3531,"visitante":"Degerfors","signo":"1
+        ","marcador":"3 - 0","fecha":"08-08-2021","hora":"17:30","fecha_completa":"2021-08-08
+        17:30:00"},{"posicion":13,"idLocal":1882,"local":"Goteborg","idVisitante":1962,"visitante":"Hammarby","signo":"X
+        ","marcador":"0 - 0","fecha":"08-08-2021","hora":"17:30","fecha_completa":"2021-08-08
+        17:30:00"},{"posicion":14,"idLocal":1972,"local":"Norrkoping","idVisitante":1984,"visitante":"Kalmar","signo":"2
+        ","marcador":"1 - 2","fecha":"09-08-2021","hora":"19:00","fecha_completa":"2021-08-09
+        19:00:00"},{"posicion":15,"idLocal":1420,"local":"Palmeiras","idVisitante":3059,"visitante":"Fortaleza","signo":"2-M","marcador":"2
+        - 3","fecha":"08-08-2021","hora":"02:00","fecha_completa":"2021-08-08 02:00:00"}],"temporada":"2020-2021","jornada":"63","contenidosRelacionados":{"noticias":[{"tituloRelacion":"Bote
+        Automatico","tituloContenido":"La Quiniela: bote de 300.000\u20ac","urlContenido":"/la-quiniela/botes/la-quiniela-bote-de-300-000euro-08-de-agosto-de-2021"},{"tituloRelacion":"Resultado
+        Automatico","tituloContenido":"La Quiniela: resultados del 08 de agosto de
+        2021","urlContenido":"/la-quiniela/resultados/la-quiniela-resultados-del-08-de-agosto-de-2021"},{"tituloRelacion":"Escrutinio
+        Automatico","tituloContenido":"La Quiniela: premios y ganadores del 08 de
+        agosto de 2021","urlContenido":"/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-08-de-agosto-de-2021"}],"enlaces":[],"puntosDeVenta":[],"documentos":[{"tituloRelacion":null,"tituloContenido":"Nota
+        de prensa del sorteo del 08/08/2021 Quiniela","urlContenido":"/f/loterias/documentos/Quiniela/Notas
+        de prensa/NOTA_DE_PRENSA_DE_LA_QUINIELA_DE_FECHA_8_8_21.pdf"}],"imagenes":[],"preguntasFrecuentes":[],"paginasLibres":[]},"elige8":{"gameid":"ELG8","relsorteoid_asociado":"1136213039","activo":"1"},"escrutinioElige8":[{"tipo":"8
+        Acertados 8 ","categoria":1,"premio":"4207,87","ganadores":"3"}]},{"fecha_sorteo":"2021-08-01
+        20:54:00","dia_semana":"domingo","id_sorteo":"1135506038","game_id":"LAQU","anyo":"2021","numero":38,"premio_bote":"0","cdc":"11355","apuestas":"834898","recaudacion":"62617350","combinacion":"1
+        - 2 - X - X - 1 - 2 - 1 - 2 - X - 1 - 1 - X - 2 - 2 - 20","premios":"34439543","fondo_bote":"0","escrutinio":[{"tipo":"Pleno
+        al 15 ","categoria":1,"premio":"0","ganadores":"0"},{"tipo":"1\u00aa (14 Aciertos)
+        ","categoria":2,"premio":"0","ganadores":"0"},{"tipo":"2\u00aa (13 Aciertos)
+        ","categoria":3,"premio":"6709","ganadores":"7"},{"tipo":"3\u00aa (12 Aciertos)
+        ","categoria":4,"premio":"782,72","ganadores":"60"},{"tipo":"4\u00aa (11 Aciertos)
+        ","categoria":5,"premio":"82,25","ganadores":"571"},{"tipo":"5\u00aa (10 Aciertos)
+        ","categoria":6,"premio":"15,21","ganadores":"3705"}],"partidos":[{"posicion":1,"idLocal":2780,"local":"Aik
+        Solna","idVisitante":2380,"visitante":"Halmstad","signo":"1 ","marcador":"1
+        - 0","fecha":"02-08-2021","hora":"19:00","fecha_completa":"2021-08-02 19:00:00"},{"posicion":2,"idLocal":1417,"local":"Corinthians","idVisitante":1387,"visitante":"Flamengo","signo":"2
+        ","marcador":"1 - 3","fecha":"01-08-2021","hora":"21:00","fecha_completa":"2021-08-01
+        21:00:00"},{"posicion":3,"idLocal":1385,"local":"Sao Paulo","idVisitante":1420,"visitante":"Palmeiras","signo":"X
+        ","marcador":"0 - 0","fecha":"01-08-2021","hora":"00:00","fecha_completa":"2021-08-01
+        00:00:00"},{"posicion":4,"idLocal":1428,"local":"Internacional","idVisitante":3436,"visitante":"Cuiab\u00e1","signo":"X
+        ","marcador":"0 - 0","fecha":"01-08-2021","hora":"01:00","fecha_completa":"2021-08-01
+        01:00:00"},{"posicion":5,"idLocal":2340,"local":"Cear\u00e1","idVisitante":3059,"visitante":"Fortaleza","signo":"1
+        ","marcador":"3 - 1","fecha":"02-08-2021","hora":"01:30","fecha_completa":"2021-08-02
+        01:30:00"},{"posicion":6,"idLocal":2327,"local":"Bahia","idVisitante":1435,"visitante":"Sport
+        Recife","signo":"2 ","marcador":"0 - 1","fecha":"01-08-2021","hora":"23:15","fecha_completa":"2021-08-01
+        23:15:00"},{"posicion":7,"idLocal":1901,"local":"Bragantino","idVisitante":1111,"visitante":"Gremio","signo":"1
+        ","marcador":"1 - 0","fecha":"01-08-2021","hora":"02:00","fecha_completa":"2021-08-01
+        02:00:00"},{"posicion":8,"idLocal":1392,"local":"Chapecoense","idVisitante":1429,"visitante":"Santos","signo":"2
+        ","marcador":"0 - 1","fecha":"01-08-2021","hora":"23:15","fecha_completa":"2021-08-01
+        23:15:00"},{"posicion":9,"idLocal":3450,"local":"Atletico Go","idVisitante":2333,"visitante":"Am\u00e9rica
+        Mineiro","signo":"X ","marcador":"1 - 1","fecha":"02-08-2021","hora":"01:30","fecha_completa":"2021-08-02
+        01:30:00"},{"posicion":10,"idLocal":2412,"local":"Djurgardens","idVisitante":1957,"visitante":"Hacken","signo":"1
+        ","marcador":"2 - 1","fecha":"01-08-2021","hora":"15:00","fecha_completa":"2021-08-01
+        15:00:00"},{"posicion":11,"idLocal":1984,"local":"Kalmar","idVisitante":3361,"visitante":"Mjallby","signo":"1
+        ","marcador":"1 - 0","fecha":"01-08-2021","hora":"17:30","fecha_completa":"2021-08-01
+        17:30:00"},{"posicion":12,"idLocal":1974,"local":"Ostersunds","idVisitante":1962,"visitante":"Hammarby","signo":"X
+        ","marcador":"1 - 1","fecha":"01-08-2021","hora":"17:30","fecha_completa":"2021-08-01
+        17:30:00"},{"posicion":13,"idLocal":1882,"local":"Goteborg","idVisitante":1972,"visitante":"Norrkoping","signo":"2
+        ","marcador":"1 - 2","fecha":"02-08-2021","hora":"19:00","fecha_completa":"2021-08-02
+        19:00:00"},{"posicion":14,"idLocal":2364,"local":"Sirius","idVisitante":1960,"visitante":"Orebro","signo":"2
+        ","marcador":"1 - 2","fecha":"02-08-2021","hora":"19:00","fecha_completa":"2021-08-02
+        19:00:00"},{"posicion":15,"idLocal":1402,"local":"Atl\u00e9tico Mineiro","idVisitante":1423,"visitante":"At.
+        Paranaense","signo":"2-0","marcador":"2 - 0","fecha":"01-08-2021","hora":"21:00","fecha_completa":"2021-08-01
+        21:00:00"}],"temporada":"2020-2021","jornada":"62","contenidosRelacionados":{"noticias":[{"tituloRelacion":"Resultado
+        Automatico","tituloContenido":"La Quiniela: resultados del 01 de agosto de
+        2021","urlContenido":"/la-quiniela/resultados/la-quiniela-resultados-del-01-de-agosto-de-2021"},{"tituloRelacion":"Escrutinio
+        Automatico","tituloContenido":"La Quiniela: premios y ganadores del 01 de
+        agosto de 2021","urlContenido":"/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-01-de-agosto-de-2021"}],"enlaces":[],"puntosDeVenta":[],"documentos":[{"tituloRelacion":null,"tituloContenido":"Nota
+        de prensa del sorteo del 01/08/2021 Quiniela","urlContenido":"/f/loterias/documentos/Quiniela/Notas
+        de prensa/NOTA_DE_PRENSA_DE_LA_QUINIELA_DE_FECHA_1_8_21.pdf"}],"imagenes":[],"preguntasFrecuentes":[],"paginasLibres":[]},"elige8":{"gameid":"ELG8","relsorteoid_asociado":"1135513038","activo":"1"},"escrutinioElige8":[{"tipo":"8
+        Acertados 8 ","categoria":1,"premio":"985,66","ganadores":"13"}]},{"fecha_sorteo":"2021-07-25
+        07:28:00","dia_semana":"domingo","id_sorteo":"1134806037","game_id":"LAQU","anyo":"2021","numero":37,"premio_bote":"300000","cdc":"11348","apuestas":"897583","recaudacion":"67318725","combinacion":"1
+        - 1 - 2 - 1 - X - 1 - X - 1 - 2 - 2 - X - 1 - 1 - X - 21","premios":"37025299","fondo_bote":"16398053","escrutinio":[{"tipo":"Pleno
+        al 15 ","categoria":1,"premio":"214469,57","ganadores":"1"},{"tipo":"1\u00aa
+        (14 Aciertos) ","categoria":2,"premio":"107709,96","ganadores":"1"},{"tipo":"2\u00aa
+        (13 Aciertos) ","categoria":3,"premio":"2969,94","ganadores":"17"},{"tipo":"3\u00aa
+        (12 Aciertos) ","categoria":4,"premio":"216,69","ganadores":"233"},{"tipo":"4\u00aa
+        (11 Aciertos) ","categoria":5,"premio":"22,13","ganadores":"2281"},{"tipo":"5\u00aa
+        (10 Aciertos) ","categoria":6,"premio":"4,55","ganadores":"13323"}],"partidos":[{"posicion":1,"idLocal":1387,"local":"Flamengo","idVisitante":1385,"visitante":"Sao
+        Paulo","signo":"1 ","marcador":"5 - 1","fecha":"25-07-2021","hora":"21:00","fecha_completa":"2021-07-25
+        21:00:00"},{"posicion":2,"idLocal":1420,"local":"Palmeiras","idVisitante":1427,"visitante":"Fluminense","signo":"1
+        ","marcador":"1 - 0","fecha":"25-07-2021","hora":"00:00","fecha_completa":"2021-07-25
+        00:00:00"},{"posicion":3,"idLocal":1429,"local":"Santos","idVisitante":3450,"visitante":"Atletico
+        Go","signo":"2 ","marcador":"0 - 1","fecha":"25-07-2021","hora":"23:15","fecha_completa":"2021-07-25
+        23:15:00"},{"posicion":4,"idLocal":1402,"local":"Atl\u00e9tico Mineiro","idVisitante":2327,"visitante":"Bahia","signo":"1
+        ","marcador":"3 - 0","fecha":"25-07-2021","hora":"16:00","fecha_completa":"2021-07-25
+        16:00:00"},{"posicion":5,"idLocal":1111,"local":"Gremio","idVisitante":2333,"visitante":"Am\u00e9rica
+        Mineiro","signo":"X ","marcador":"1 - 1","fecha":"24-07-2021","hora":"22:00","fecha_completa":"2021-07-24
+        22:00:00"},{"posicion":6,"idLocal":3059,"local":"Fortaleza","idVisitante":1901,"visitante":"Bragantino","signo":"1
+        ","marcador":"1 - 0","fecha":"25-07-2021","hora":"21:00","fecha_completa":"2021-07-25
+        21:00:00"},{"posicion":7,"idLocal":1435,"local":"Sport Recife","idVisitante":2340,"visitante":"Cear\u00e1","signo":"X
+        ","marcador":"0 - 0","fecha":"26-07-2021","hora":"01:30","fecha_completa":"2021-07-26
+        01:30:00"},{"posicion":8,"idLocal":3478,"local":"Juventude","idVisitante":1392,"visitante":"Chapecoense","signo":"1
+        ","marcador":"1 - 0","fecha":"26-07-2021","hora":"23:00","fecha_completa":"2021-07-26
+        23:00:00"},{"posicion":9,"idLocal":3436,"local":"Cuiab\u00e1","idVisitante":1417,"visitante":"Corinthians","signo":"2
+        ","marcador":"1 - 2","fecha":"27-07-2021","hora":"01:00","fecha_completa":"2021-07-27
+        01:00:00"},{"posicion":10,"idLocal":1984,"local":"Kalmar","idVisitante":2412,"visitante":"Djurgardens","signo":"2
+        ","marcador":"0 - 1","fecha":"25-07-2021","hora":"15:00","fecha_completa":"2021-07-25
+        15:00:00"},{"posicion":11,"idLocal":1957,"local":"Hacken","idVisitante":1966,"visitante":"Elfsborg","signo":"X
+        ","marcador":"1 - 1","fecha":"25-07-2021","hora":"17:30","fecha_completa":"2021-07-25
+        17:30:00"},{"posicion":12,"idLocal":1962,"local":"Hammarby","idVisitante":1972,"visitante":"Norrkoping","signo":"1
+        ","marcador":"2 - 1","fecha":"25-07-2021","hora":"17:30","fecha_completa":"2021-07-25
+        17:30:00"},{"posicion":13,"idLocal":3395,"local":"Varbergs","idVisitante":1882,"visitante":"Goteborg","signo":"1
+        ","marcador":"2 - 0","fecha":"26-07-2021","hora":"19:00","fecha_completa":"2021-07-26
+        19:00:00"},{"posicion":14,"idLocal":1960,"local":"Orebro","idVisitante":2780,"visitante":"Aik
+        Solna","signo":"X ","marcador":"1 - 1","fecha":"26-07-2021","hora":"19:00","fecha_completa":"2021-07-26
+        19:00:00"},{"posicion":15,"idLocal":1423,"local":"At. Paranaense","idVisitante":1428,"visitante":"Internacional","signo":"2-1","marcador":"2
+        - 1","fecha":"25-07-2021","hora":"23:15","fecha_completa":"2021-07-25 23:15:00"}],"temporada":"2020-2021","jornada":"61","contenidosRelacionados":{"noticias":[{"tituloRelacion":"Resultado
+        Automatico","tituloContenido":"La Quiniela: resultados del 25 de julio de
+        2021","urlContenido":"/la-quiniela/resultados/la-quiniela-resultados-del-25-de-julio-de-2021"},{"tituloRelacion":"Escrutinio
+        Automatico","tituloContenido":"La Quiniela: premios y ganadores del 25 de
+        julio de 2021","urlContenido":"/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-25-de-julio-de-2021"},{"tituloRelacion":"Premio
+        Automatico 2","tituloContenido":"Premio de 14 aciertos de La Quiniela del
+        25 de julio de 2021","urlContenido":"/premios/premio-de-14-aciertos-de-la-quiniela-del-25-de-julio-de-2021"},{"tituloRelacion":"Premio
+        Automatico","tituloContenido":"Pleno al 15 de La Quiniela del 25 de julio
+        de 2021","urlContenido":"/premios/pleno-al-15-de-la-quiniela-del-25-de-julio-de-2021"},{"tituloRelacion":"Bote
+        Automatico","tituloContenido":"La Quiniela: bote de 300.000\u20ac","urlContenido":"/la-quiniela/botes/la-quiniela-bote-de-300-000euro-25-de-julio-de-2021"}],"enlaces":[],"puntosDeVenta":[],"documentos":[{"tituloRelacion":null,"tituloContenido":"Nota
+        de prensa del sorteo del 25/07/2021 Quiniela","urlContenido":"/f/loterias/documentos/El
+        Quinigol/Notas de prensa/NOTA_DE_PRENSA_DE_LA_QUINIELA_DE_FECHA_25_7_21.pdf"}],"imagenes":[],"preguntasFrecuentes":[],"paginasLibres":[]},"elige8":{"gameid":"ELG8","relsorteoid_asociado":"1134813037","activo":"1"},"escrutinioElige8":[{"tipo":"8
+        Acertados 8 ","categoria":1,"premio":"482,45","ganadores":"28"}]},{"fecha_sorteo":"2021-07-18
+        08:10:00","dia_semana":"domingo","id_sorteo":"1134106036","game_id":"LAQU","anyo":"2021","numero":36,"premio_bote":"0","cdc":"11341","apuestas":"930386","recaudacion":"69778950","combinacion":"2
+        - 2 - 2 - 2 - 1 - 1 - 2 - X - 2 - 2 - 1 - X - 1 - X - 1M","premios":"38378423","fondo_bote":"0","escrutinio":[{"tipo":"Pleno
+        al 15 ","categoria":1,"premio":"0","ganadores":"0"},{"tipo":"1\u00aa (14 Aciertos)
+        ","categoria":2,"premio":"0","ganadores":"0"},{"tipo":"2\u00aa (13 Aciertos)
+        ","categoria":3,"premio":"26167,11","ganadores":"2"},{"tipo":"3\u00aa (12
+        Aciertos) ","categoria":4,"premio":"1869,08","ganadores":"28"},{"tipo":"4\u00aa
+        (11 Aciertos) ","categoria":5,"premio":"188,93","ganadores":"277"},{"tipo":"5\u00aa
+        (10 Aciertos) ","categoria":6,"premio":"31,89","ganadores":"1969"}],"partidos":[{"posicion":1,"idLocal":1427,"local":"Fluminense","idVisitante":1111,"visitante":"Gremio","signo":"2
+        ","marcador":"0 - 1","fecha":"18-07-2021","hora":"02:00","fecha_completa":"2021-07-18
+        02:00:00"},{"posicion":2,"idLocal":1417,"local":"Corinthians","idVisitante":2325,"visitante":"At.
+        Mineiro","signo":"2 ","marcador":"1 - 2","fecha":"18-07-2021","hora":"00:00","fecha_completa":"2021-07-18
+        00:00:00"},{"posicion":3,"idLocal":1385,"local":"Sao Paulo","idVisitante":3059,"visitante":"Fortaleza","signo":"2
+        ","marcador":"0 - 1","fecha":"17-07-2021","hora":"22:00","fecha_completa":"2021-07-17
+        22:00:00"},{"posicion":4,"idLocal":2333,"local":"Am\u00e9rica Mineiro","idVisitante":1435,"visitante":"Sport
+        Recife","signo":"2 ","marcador":"0 - 1","fecha":"20-07-2021","hora":"01:00","fecha_completa":"2021-07-20
+        01:00:00"},{"posicion":5,"idLocal":1428,"local":"Internacional","idVisitante":3478,"visitante":"Juventude","signo":"1
+        ","marcador":"1 - 0","fecha":"19-07-2021","hora":"01:30","fecha_completa":"2021-07-19
+        01:30:00"},{"posicion":6,"idLocal":2340,"local":"Cear\u00e1","idVisitante":1423,"visitante":"At.
+        Paranaense","signo":"1 ","marcador":"1 - 0","fecha":"17-07-2021","hora":"22:00","fecha_completa":"2021-07-17
+        22:00:00"},{"posicion":7,"idLocal":2327,"local":"Bahia","idVisitante":1387,"visitante":"Flamengo","signo":"2
+        ","marcador":"0 - 5","fecha":"18-07-2021","hora":"23:15","fecha_completa":"2021-07-18
+        23:15:00"},{"posicion":8,"idLocal":1901,"local":"Bragantino","idVisitante":1429,"visitante":"Santos","signo":"X
+        ","marcador":"2 - 2","fecha":"19-07-2021","hora":"01:30","fecha_completa":"2021-07-19
+        01:30:00"},{"posicion":9,"idLocal":1392,"local":"Chapecoense","idVisitante":3436,"visitante":"Cuiab\u00e1","signo":"2
+        ","marcador":"2 - 3","fecha":"18-07-2021","hora":"16:00","fecha_completa":"2021-07-18
+        16:00:00"},{"posicion":10,"idLocal":3450,"local":"Atletico Go","idVisitante":1420,"visitante":"Palmeiras","signo":"2
+        ","marcador":"0 - 3","fecha":"18-07-2021","hora":"21:00","fecha_completa":"2021-07-18
+        21:00:00"},{"posicion":11,"idLocal":3363,"local":"Odds","idVisitante":1858,"visitante":"Viking","signo":"1
+        ","marcador":"3 - 2","fecha":"17-07-2021","hora":"18:00","fecha_completa":"2021-07-17
+        18:00:00"},{"posicion":12,"idLocal":1859,"local":"Sarpsborg 08","idVisitante":3516,"visitante":"Fk
+        Bodo Glimt","signo":"X ","marcador":"2 - 2","fecha":"17-07-2021","hora":"20:00","fecha_completa":"2021-07-17
+        20:00:00"},{"posicion":13,"idLocal":2771,"local":"Kristiansund","idVisitante":2774,"visitante":"Sandefjord","signo":"1
+        ","marcador":"2 - 0","fecha":"18-07-2021","hora":"18:00","fecha_completa":"2021-07-18
+        18:00:00"},{"posicion":14,"idLocal":2413,"local":"Lillestrom","idVisitante":1696,"visitante":"Molde","signo":"X
+        ","marcador":"1 - 1","fecha":"18-07-2021","hora":"18:00","fecha_completa":"2021-07-18
+        18:00:00"},{"posicion":15,"idLocal":2749,"local":"Tromso","idVisitante":67,"visitante":"Rosenborg","signo":"1-M","marcador":"1
+        - 3","fecha":"18-07-2021","hora":"18:00","fecha_completa":"2021-07-18 18:00:00"}],"temporada":"2020-2021","jornada":"60","contenidosRelacionados":{"noticias":[{"tituloRelacion":"Resultado
+        Automatico","tituloContenido":"La Quiniela: resultados del 18 de julio de
+        2021","urlContenido":"/la-quiniela/resultados/la-quiniela-resultados-del-18-de-julio-de-2021"},{"tituloRelacion":"Escrutinio
+        Automatico","tituloContenido":"La Quiniela: premios y ganadores del 18 de
+        julio de 2021","urlContenido":"/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-18-de-julio-de-2021"}],"enlaces":[],"puntosDeVenta":[],"documentos":[{"tituloRelacion":null,"tituloContenido":"Nota
+        de prensa del sorteo del 18/07/2021 Quiniela","urlContenido":"/f/loterias/documentos/Quiniela/Notas
+        de prensa/NOTA_DE_PRENSA_DE_LA_QUINIELA_DE_FECHA_18_7_21.pdf"}],"imagenes":[],"preguntasFrecuentes":[],"paginasLibres":[]},"elige8":{"gameid":"ELG8","relsorteoid_asociado":"1134113036","activo":"1"},"escrutinioElige8":[{"tipo":"8
+        Acertados 8 ","categoria":1,"premio":"4409,08","ganadores":"3"}]},{"fecha_sorteo":"2021-07-11
+        08:00:00","dia_semana":"domingo","id_sorteo":"1133406035","game_id":"LAQU","anyo":"2021","numero":35,"premio_bote":"2300000","cdc":"11334","apuestas":"1480977","recaudacion":"111073275","combinacion":"1
+        - 1 - 1 - 2 - X - 1 - 2 - X - X - X - 1 - X - 1 - 1 - 11","premios":"61090301","fondo_bote":"207515935","escrutinio":[{"tipo":"Pleno
+        al 15 ","categoria":1,"premio":"539616,08","ganadores":"4"},{"tipo":"1\u00aa
+        (14 Aciertos) ","categoria":2,"premio":"7726,84","ganadores":"23"},{"tipo":"2\u00aa
+        (13 Aciertos) ","categoria":3,"premio":"195,55","ganadores":"426"},{"tipo":"3\u00aa
+        (12 Aciertos) ","categoria":4,"premio":"21,88","ganadores":"3808"},{"tipo":"4\u00aa
+        (11 Aciertos) ","categoria":5,"premio":"4,17","ganadores":"19985"},{"tipo":"5\u00aa
+        (10 Aciertos) ","categoria":6,"premio":"1,53","ganadores":"65467"}],"partidos":[{"posicion":1,"idLocal":1387,"local":"Flamengo","idVisitante":1392,"visitante":"Chapecoense","signo":"1
+        ","marcador":"2 - 1","fecha":"11-07-2021","hora":"23:15","fecha_completa":"2021-07-11
+        23:15:00"},{"posicion":2,"idLocal":1420,"local":"Palmeiras","idVisitante":1429,"visitante":"Santos","signo":"1
+        ","marcador":"3 - 2","fecha":"10-07-2021","hora":"21:30","fecha_completa":"2021-07-10
+        21:30:00"},{"posicion":3,"idLocal":1385,"local":"Sao Paulo","idVisitante":2327,"visitante":"Bahia","signo":"1
+        ","marcador":"1 - 0","fecha":"11-07-2021","hora":"00:00","fecha_completa":"2021-07-11
+        00:00:00"},{"posicion":4,"idLocal":2333,"local":"Am\u00e9rica Mineiro","idVisitante":2325,"visitante":"At.
+        Mineiro","signo":"2 ","marcador":"0 - 1","fecha":"11-07-2021","hora":"00:00","fecha_completa":"2021-07-11
+        00:00:00"},{"posicion":5,"idLocal":1111,"local":"Gremio","idVisitante":1428,"visitante":"Internacional","signo":"X
+        ","marcador":"0 - 0","fecha":"10-07-2021","hora":"21:30","fecha_completa":"2021-07-10
+        21:30:00"},{"posicion":6,"idLocal":3059,"local":"Fortaleza","idVisitante":1417,"visitante":"Corinthians","signo":"1
+        ","marcador":"1 - 0","fecha":"12-07-2021","hora":"01:30","fecha_completa":"2021-07-12
+        01:30:00"},{"posicion":7,"idLocal":1435,"local":"Sport Recife","idVisitante":1427,"visitante":"Fluminense","signo":"2
+        ","marcador":"1 - 2","fecha":"11-07-2021","hora":"00:00","fecha_completa":"2021-07-11
+        00:00:00"},{"posicion":8,"idLocal":1423,"local":"At. Paranaense","idVisitante":1901,"visitante":"Bragantino","signo":"X
+        ","marcador":"2 - 2","fecha":"10-07-2021","hora":"22:30","fecha_completa":"2021-07-10
+        22:30:00"},{"posicion":9,"idLocal":3478,"local":"Juventude","idVisitante":3450,"visitante":"Atletico
+        Go","signo":"X ","marcador":"1 - 1","fecha":"11-07-2021","hora":"16:00","fecha_completa":"2021-07-11
+        16:00:00"},{"posicion":10,"idLocal":3436,"local":"Cuiab\u00e1","idVisitante":2340,"visitante":"Cear\u00e1","signo":"X
+        ","marcador":"2 - 2","fecha":"11-07-2021","hora":"23:15","fecha_completa":"2021-07-11
+        23:15:00"},{"posicion":11,"idLocal":2774,"local":"Sandefjord","idVisitante":1859,"visitante":"Sarpsborg
+        08","signo":"1 ","marcador":"2 - 0","fecha":"10-07-2021","hora":"18:00","fecha_completa":"2021-07-10
+        18:00:00"},{"posicion":12,"idLocal":1854,"local":"Valerenga","idVisitante":2413,"visitante":"Lillestrom","signo":"X
+        ","marcador":"2 - 2","fecha":"11-07-2021","hora":"15:30","fecha_completa":"2021-07-11
+        15:30:00"},{"posicion":13,"idLocal":1696,"local":"Molde","idVisitante":3363,"visitante":"Odds","signo":"1
+        ","marcador":"5 - 0","fecha":"11-07-2021","hora":"18:00","fecha_completa":"2021-07-11
+        18:00:00"},{"posicion":14,"idLocal":67,"local":"Rosenborg","idVisitante":2771,"visitante":"Kristiansund","signo":"1
+        ","marcador":"1 - 0","fecha":"10-07-2021","hora":"18:00","fecha_completa":"2021-07-10
+        18:00:00"},{"posicion":15,"idLocal":33,"local":"Italia","idVisitante":52,"visitante":"Inglaterra","signo":"1-1","marcador":"1
+        - 1","fecha":"11-07-2021","hora":"21:00","fecha_completa":"2021-07-11 21:00:00"}],"temporada":"2020-2021","jornada":"59","contenidosRelacionados":{"noticias":[{"tituloRelacion":"Resultado
+        Automatico","tituloContenido":"La Quiniela: resultados del 11 de julio de
+        2021","urlContenido":"/la-quiniela/resultados/la-quiniela-resultados-del-11-de-julio-de-2021"},{"tituloRelacion":"Escrutinio
+        Automatico","tituloContenido":"La Quiniela: premios y ganadores del 11 de
+        julio de 2021","urlContenido":"/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-11-de-julio-de-2021"},{"tituloRelacion":"Premio
+        Automatico","tituloContenido":"Pleno al 15 de La Quiniela del 11 de julio
+        de 2021","urlContenido":"/premios/pleno-al-15-de-la-quiniela-del-11-de-julio-de-2021"},{"tituloRelacion":"Premio
+        Automatico 2","tituloContenido":"Premio de 14 aciertos de La Quiniela del
+        11 de julio de 2021","urlContenido":"/premios/premio-de-14-aciertos-de-la-quiniela-del-11-de-julio-de-2021"},{"tituloRelacion":"Bote
+        Automatico","tituloContenido":"La Quiniela: bote de 2.300.000\u20ac","urlContenido":"/la-quiniela/botes/la-quiniela-bote-de-2-300-000euro-11-de-julio-de-2021"}],"enlaces":[],"puntosDeVenta":[],"documentos":[{"tituloRelacion":null,"tituloContenido":"Nota
+        de prensa del sorteo del 11/07/2021 Quiniela","urlContenido":"/f/loterias/documentos/Quiniela/Notas
+        de prensa/NOTA_DE_PRENSA_DE_LA_QUINIELA_DE_FECHA_11_07_21.pdf"}],"imagenes":[],"preguntasFrecuentes":[],"paginasLibres":[]},"elige8":{"gameid":"ELG8","relsorteoid_asociado":"1133413035","activo":"1"},"escrutinioElige8":[{"tipo":"8
+        Acertados 8 ","categoria":1,"premio":"69,97","ganadores":"254"}]},{"fecha_sorteo":"2021-07-04
+        01:10:00","dia_semana":"domingo","id_sorteo":"1132706034","game_id":"LAQU","anyo":"2021","numero":34,"premio_bote":"2100000","cdc":"11327","apuestas":"1639295","recaudacion":"122947125","combinacion":"X
+        - 2 - 2 - 2 - X - 1 - 2 - 1 - 2 - 2 - 1 - 2 - X - 1 - 01","premios":"67620919","fondo_bote":"178623361","escrutinio":[{"tipo":"Pleno
+        al 15 ","categoria":1,"premio":"0","ganadores":"0"},{"tipo":"1\u00aa (14 Aciertos)
+        ","categoria":2,"premio":"0","ganadores":"0"},{"tipo":"2\u00aa (13 Aciertos)
+        ","categoria":3,"premio":"4390,97","ganadores":"21"},{"tipo":"3\u00aa (12
+        Aciertos) ","categoria":4,"premio":"289,97","ganadores":"318"},{"tipo":"4\u00aa
+        (11 Aciertos) ","categoria":5,"premio":"30,34","ganadores":"3039"},{"tipo":"5\u00aa
+        (10 Aciertos) ","categoria":6,"premio":"6,22","ganadores":"17784"}],"partidos":[{"posicion":1,"idLocal":219,"local":"Suiza","idVisitante":181,"visitante":"Espa\u00f1a","signo":"X
+        ","marcador":"1 - 1","fecha":"02-07-2021","hora":"18:00","fecha_completa":"2021-07-02
+        18:00:00"},{"posicion":2,"idLocal":139,"local":"B\u00e9lgica","idVisitante":33,"visitante":"Italia","signo":"2
+        ","marcador":"1 - 2","fecha":"02-07-2021","hora":"21:00","fecha_completa":"2021-07-02
+        21:00:00"},{"posicion":3,"idLocal":225,"local":"Rep. Checa","idVisitante":197,"visitante":"Dinamarca","signo":"2
+        ","marcador":"1 - 2","fecha":"03-07-2021","hora":"18:00","fecha_completa":"2021-07-03
+        18:00:00"},{"posicion":4,"idLocal":481,"local":"Ucrania","idVisitante":52,"visitante":"Inglaterra","signo":"2
+        ","marcador":"0 - 4","fecha":"03-07-2021","hora":"21:00","fecha_completa":"2021-07-03
+        21:00:00"},{"posicion":5,"idLocal":1417,"local":"Corinthians","idVisitante":1428,"visitante":"Internacional","signo":"X
+        ","marcador":"1 - 1","fecha":"04-07-2021","hora":"02:00","fecha_completa":"2021-07-04
+        02:00:00"},{"posicion":6,"idLocal":1423,"local":"At. Paranaense","idVisitante":3059,"visitante":"Fortaleza","signo":"1
+        ","marcador":"2 - 1","fecha":"04-07-2021","hora":"00:00","fecha_completa":"2021-07-04
+        00:00:00"},{"posicion":7,"idLocal":1392,"local":"Chapecoense","idVisitante":2327,"visitante":"Bahia","signo":"2
+        ","marcador":"0 - 2","fecha":"04-07-2021","hora":"16:00","fecha_completa":"2021-07-04
+        16:00:00"},{"posicion":8,"idLocal":2333,"local":"Am\u00e9rica Mineiro","idVisitante":1429,"visitante":"Santos","signo":"1
+        ","marcador":"2 - 0","fecha":"04-07-2021","hora":"00:00","fecha_completa":"2021-07-04
+        00:00:00"},{"posicion":9,"idLocal":1435,"local":"Sport Recife","idVisitante":1420,"visitante":"Palmeiras","signo":"2
+        ","marcador":"0 - 1","fecha":"04-07-2021","hora":"21:00","fecha_completa":"2021-07-04
+        21:00:00"},{"posicion":10,"idLocal":1385,"local":"Sao Paulo","idVisitante":1901,"visitante":"Bragantino","signo":"2
+        ","marcador":"1 - 2","fecha":"04-07-2021","hora":"23:15","fecha_completa":"2021-07-04
+        23:15:00"},{"posicion":11,"idLocal":2340,"local":"Cear\u00e1","idVisitante":3478,"visitante":"Juventude","signo":"1
+        ","marcador":"2 - 0","fecha":"04-07-2021","hora":"23:15","fecha_completa":"2021-07-04
+        23:15:00"},{"posicion":12,"idLocal":1856,"local":"Stabaek","idVisitante":2774,"visitante":"Sandefjord","signo":"2
+        ","marcador":"0 - 2","fecha":"04-07-2021","hora":"15:00","fecha_completa":"2021-07-04
+        15:00:00"},{"posicion":13,"idLocal":3363,"local":"Odds","idVisitante":67,"visitante":"Rosenborg","signo":"X
+        ","marcador":"2 - 2","fecha":"04-07-2021","hora":"18:00","fecha_completa":"2021-07-04
+        18:00:00"},{"posicion":14,"idLocal":1859,"local":"Sarpsborg 08","idVisitante":1696,"visitante":"Molde","signo":"1
+        ","marcador":"1 - 0","fecha":"04-07-2021","hora":"18:00","fecha_completa":"2021-07-04
+        18:00:00"},{"posicion":15,"idLocal":1387,"local":"Flamengo","idVisitante":1427,"visitante":"Fluminense","signo":"0-1","marcador":"0
+        - 1","fecha":"04-07-2021","hora":"21:00","fecha_completa":"2021-07-04 21:00:00"}],"temporada":"2020-2021","jornada":"58","contenidosRelacionados":{"noticias":[{"tituloRelacion":"Bote
+        Automatico","tituloContenido":"La Quiniela: bote de 2.100.000\u20ac","urlContenido":"/la-quiniela/botes/la-quiniela-bote-de-2-100-000euro-04-de-julio-de-2021"},{"tituloRelacion":"Resultado
+        Automatico","tituloContenido":"La Quiniela: resultados del 04 de julio de
+        2021","urlContenido":"/la-quiniela/resultados/la-quiniela-resultados-del-04-de-julio-de-2021"},{"tituloRelacion":"Escrutinio
+        Automatico","tituloContenido":"La Quiniela: premios y ganadores del 04 de
+        julio de 2021","urlContenido":"/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-04-de-julio-de-2021"}],"enlaces":[],"puntosDeVenta":[],"documentos":[{"tituloRelacion":null,"tituloContenido":"Nota
+        de prensa de la jornada del 04/07/2021 La Quiniela","urlContenido":"/f/loterias/documentos/Quiniela/Notas
+        de prensa/NOTA_DE_PRENSA_DE_LA_QUINIELA_DE_FECHA_4_07_21.pdf"}],"imagenes":[],"preguntasFrecuentes":[],"paginasLibres":[]},"elige8":{"gameid":"ELG8","relsorteoid_asociado":"1132713034","activo":"1"},"escrutinioElige8":[{"tipo":"8
+        Acertados 8 ","categoria":1,"premio":"1432,01","ganadores":"13"}]},{"fecha_sorteo":"2021-06-27
+        08:19:00","dia_semana":"domingo","id_sorteo":"1132006033","game_id":"LAQU","anyo":"2021","numero":33,"premio_bote":"1800000","cdc":"11320","apuestas":"1889363","recaudacion":"141702225","combinacion":"2
+        - 1 - 2 - 1 - 2 - X - 1 - 1 - X - 1 - 1 - 1 - X - X - 11","premios":"77936224","fondo_bote":"145323338","escrutinio":[{"tipo":"Pleno
+        al 15 ","categoria":1,"premio":"0","ganadores":"0"},{"tipo":"1\u00aa (14 Aciertos)
+        ","categoria":2,"premio":"0","ganadores":"0"},{"tipo":"2\u00aa (13 Aciertos)
+        ","categoria":3,"premio":"7591,19","ganadores":"14"},{"tipo":"3\u00aa (12
+        Aciertos) ","categoria":4,"premio":"416,77","ganadores":"255"},{"tipo":"4\u00aa
+        (11 Aciertos) ","categoria":5,"premio":"38,93","ganadores":"2730"},{"tipo":"5\u00aa
+        (10 Aciertos) ","categoria":6,"premio":"6,57","ganadores":"19418"}],"partidos":[{"posicion":1,"idLocal":369,"local":"Gales","idVisitante":197,"visitante":"Dinamarca","signo":"2
+        ","marcador":"0 - 4","fecha":"26-06-2021","hora":"18:00","fecha_completa":"2021-06-26
+        18:00:00"},{"posicion":2,"idLocal":33,"local":"Italia","idVisitante":188,"visitante":"Austria","signo":"1
+        ","marcador":"2 - 1","fecha":"26-06-2021","hora":"21:00","fecha_completa":"2021-06-26
+        21:00:00"},{"posicion":3,"idLocal":3434,"local":"Pa\u00edses Bajos","idVisitante":225,"visitante":"Rep.
+        Checa","signo":"2 ","marcador":"0 - 2","fecha":"27-06-2021","hora":"18:00","fecha_completa":"2021-06-27
+        18:00:00"},{"posicion":4,"idLocal":139,"local":"B\u00e9lgica","idVisitante":209,"visitante":"Portugal","signo":"1
+        ","marcador":"1 - 0","fecha":"27-06-2021","hora":"21:00","fecha_completa":"2021-06-27
+        21:00:00"},{"posicion":5,"idLocal":233,"local":"Croacia","idVisitante":181,"visitante":"Espa\u00f1a","signo":"2
+        ","marcador":"3 - 5","fecha":"28-06-2021","hora":"18:00","fecha_completa":"2021-06-28
+        18:00:00"},{"posicion":6,"idLocal":55,"local":"Francia","idVisitante":219,"visitante":"Suiza","signo":"X
+        ","marcador":"3 - 3","fecha":"28-06-2021","hora":"21:00","fecha_completa":"2021-06-28
+        21:00:00"},{"posicion":7,"idLocal":735,"local":"Uruguay","idVisitante":730,"visitante":"Paraguay","signo":"1
+        ","marcador":"1 - 0","fecha":"29-06-2021","hora":"02:00","fecha_completa":"2021-06-29
+        02:00:00"},{"posicion":8,"idLocal":724,"local":"Argentina","idVisitante":1442,"visitante":"Bolivia","signo":"1
+        ","marcador":"4 - 1","fecha":"29-06-2021","hora":"02:00","fecha_completa":"2021-06-29
+        02:00:00"},{"posicion":9,"idLocal":1111,"local":"Gremio","idVisitante":3059,"visitante":"Fortaleza","signo":"X
+        ","marcador":"0 - 0","fecha":"28-06-2021","hora":"01:00","fecha_completa":"2021-06-28
+        01:00:00"},{"posicion":10,"idLocal":1420,"local":"Palmeiras","idVisitante":2327,"visitante":"Bahia","signo":"1
+        ","marcador":"3 - 2","fecha":"28-06-2021","hora":"01:00","fecha_completa":"2021-06-28
+        01:00:00"},{"posicion":11,"idLocal":3478,"local":"Juventude","idVisitante":1387,"visitante":"Flamengo","signo":"1
+        ","marcador":"1 - 0","fecha":"27-06-2021","hora":"16:00","fecha_completa":"2021-06-27
+        16:00:00"},{"posicion":12,"idLocal":1429,"local":"Santos","idVisitante":2325,"visitante":"At.
+        Mineiro","signo":"1 ","marcador":"2 - 0","fecha":"28-06-2021","hora":"01:30","fecha_completa":"2021-06-28
+        01:30:00"},{"posicion":13,"idLocal":2340,"local":"Cear\u00e1","idVisitante":1385,"visitante":"Sao
+        Paulo","signo":"X ","marcador":"1 - 1","fecha":"28-06-2021","hora":"01:30","fecha_completa":"2021-06-28
+        01:30:00"},{"posicion":14,"idLocal":1423,"local":"At. Paranaense","idVisitante":1392,"visitante":"Chapecoense","signo":"X
+        ","marcador":"2 - 2","fecha":"28-06-2021","hora":"01:00","fecha_completa":"2021-06-28
+        01:00:00"},{"posicion":15,"idLocal":1427,"local":"Fluminense","idVisitante":1417,"visitante":"Corinthians","signo":"1-1","marcador":"1
+        - 1","fecha":"27-06-2021","hora":"21:00","fecha_completa":"2021-06-27 21:00:00"}],"temporada":"2020-2021","jornada":"57","contenidosRelacionados":{"noticias":[{"tituloRelacion":"Resultado
+        Automatico","tituloContenido":"La Quiniela: resultados del 27 de junio de
+        2021","urlContenido":"/la-quiniela/resultados/la-quiniela-resultados-del-27-de-junio-de-2021"},{"tituloRelacion":"Escrutinio
+        Automatico","tituloContenido":"La Quiniela: premios y ganadores del 27 de
+        junio de 2021","urlContenido":"/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-27-de-junio-de-2021"},{"tituloRelacion":"Bote
+        Automatico","tituloContenido":"La Quiniela: bote de 1.800.000\u20ac","urlContenido":"/la-quiniela/botes/la-quiniela-bote-de-1-800-000euro-27-de-junio-de-2021"}],"enlaces":[],"puntosDeVenta":[],"documentos":[{"tituloRelacion":null,"tituloContenido":"Nota
+        de prensa del sorteo del 27/06/2021 Quiniela","urlContenido":"/f/loterias/documentos/Quiniela/Notas
+        de prensa/NOTA_DE_PRENSA_DE_LA_QUINIELA_DE_FECHA__27_6_21.pdf"}],"imagenes":[],"preguntasFrecuentes":[],"paginasLibres":[]},"elige8":{"gameid":"ELG8","relsorteoid_asociado":"1132013033","activo":"1"},"escrutinioElige8":[{"tipo":"8
+        Acertados 8 ","categoria":1,"premio":"1544,86","ganadores":"15"}]},{"fecha_sorteo":"2021-06-20
+        08:01:00","dia_semana":"domingo","id_sorteo":"1131306032","game_id":"LAQU","anyo":"2021","numero":32,"premio_bote":"1300000","cdc":"11313","apuestas":"2059636","recaudacion":"154472700","combinacion":"X
+        - 2 - 1 - 1 - 2 - 2 - 2 - 2 - 2 - 1 - X - X - X - 1 - 11","premios":"84959985","fondo_bote":"109022253","escrutinio":[{"tipo":"Pleno
+        al 15 ","categoria":1,"premio":"0","ganadores":"0"},{"tipo":"1\u00aa (14 Aciertos)
+        ","categoria":2,"premio":"0","ganadores":"0"},{"tipo":"2\u00aa (13 Aciertos)
+        ","categoria":3,"premio":"9654,54","ganadores":"12"},{"tipo":"3\u00aa (12
+        Aciertos) ","categoria":4,"premio":"416,74","ganadores":"278"},{"tipo":"4\u00aa
+        (11 Aciertos) ","categoria":5,"premio":"37,86","ganadores":"3060"},{"tipo":"5\u00aa
+        (10 Aciertos) ","categoria":6,"premio":"6,61","ganadores":"21032"}],"partidos":[{"posicion":1,"idLocal":185,"local":"Hungr\u00eda","idVisitante":55,"visitante":"Francia","signo":"X
+        ","marcador":"1 - 1","fecha":"19-06-2021","hora":"15:00","fecha_completa":"2021-06-19
+        15:00:00"},{"posicion":2,"idLocal":209,"local":"Portugal","idVisitante":57,"visitante":"Alemania","signo":"2
+        ","marcador":"2 - 4","fecha":"19-06-2021","hora":"18:00","fecha_completa":"2021-06-19
+        18:00:00"},{"posicion":3,"idLocal":219,"local":"Suiza","idVisitante":231,"visitante":"Turqu\u00eda","signo":"1
+        ","marcador":"3 - 1","fecha":"20-06-2021","hora":"18:00","fecha_completa":"2021-06-20
+        18:00:00"},{"posicion":4,"idLocal":33,"local":"Italia","idVisitante":369,"visitante":"Gales","signo":"1
+        ","marcador":"1 - 0","fecha":"20-06-2021","hora":"18:00","fecha_completa":"2021-06-20
+        18:00:00"},{"posicion":5,"idLocal":481,"local":"Ucrania","idVisitante":188,"visitante":"Austria","signo":"2
+        ","marcador":"0 - 1","fecha":"21-06-2021","hora":"18:00","fecha_completa":"2021-06-21
+        18:00:00"},{"posicion":6,"idLocal":3415,"local":"Ary Macedonia","idVisitante":3434,"visitante":"Pa\u00edses
+        Bajos","signo":"2 ","marcador":"0 - 3","fecha":"21-06-2021","hora":"18:00","fecha_completa":"2021-06-21
+        18:00:00"},{"posicion":7,"idLocal":350,"local":"Rusia","idVisitante":197,"visitante":"Dinamarca","signo":"2
+        ","marcador":"1 - 4","fecha":"21-06-2021","hora":"21:00","fecha_completa":"2021-06-21
+        21:00:00"},{"posicion":8,"idLocal":228,"local":"Finlandia","idVisitante":139,"visitante":"B\u00e9lgica","signo":"2
+        ","marcador":"0 - 2","fecha":"21-06-2021","hora":"21:00","fecha_completa":"2021-06-21
+        21:00:00"},{"posicion":9,"idLocal":1387,"local":"Flamengo","idVisitante":1901,"visitante":"Bragantino","signo":"2
+        ","marcador":"2 - 3","fecha":"20-06-2021","hora":"02:00","fecha_completa":"2021-06-20
+        02:00:00"},{"posicion":10,"idLocal":1429,"local":"Santos","idVisitante":1385,"visitante":"Sao
+        Paulo","signo":"1 ","marcador":"2 - 0","fecha":"20-06-2021","hora":"23:15","fecha_completa":"2021-06-20
+        23:15:00"},{"posicion":11,"idLocal":1402,"local":"Atl\u00e9tico Mineiro","idVisitante":1392,"visitante":"Chapecoense","signo":"X
+        ","marcador":"1 - 1","fecha":"22-06-2021","hora":"01:00","fecha_completa":"2021-06-22
+        01:00:00"},{"posicion":12,"idLocal":3059,"local":"Fortaleza","idVisitante":1427,"visitante":"Fluminense","signo":"X
+        ","marcador":"1 - 1","fecha":"20-06-2021","hora":"23:15","fecha_completa":"2021-06-20
+        23:15:00"},{"posicion":13,"idLocal":2327,"local":"Bahia","idVisitante":1417,"visitante":"Corinthians","signo":"X
+        ","marcador":"0 - 0","fecha":"20-06-2021","hora":"21:00","fecha_completa":"2021-06-20
+        21:00:00"},{"posicion":14,"idLocal":1423,"local":"At. Paranaense","idVisitante":3450,"visitante":"Atletico
+        Go","signo":"1 ","marcador":"2 - 1","fecha":"20-06-2021","hora":"23:15","fecha_completa":"2021-06-20
+        23:15:00"},{"posicion":15,"idLocal":181,"local":"Espa\u00f1a","idVisitante":186,"visitante":"Polonia","signo":"1-1","marcador":"1
+        - 1","fecha":"19-06-2021","hora":"21:00","fecha_completa":"2021-06-19 21:00:00"}],"temporada":"2020-2021","jornada":"56","contenidosRelacionados":{"noticias":[{"tituloRelacion":"Resultado
+        Automatico","tituloContenido":"La Quiniela: resultados del 20 de junio de
+        2021","urlContenido":"/la-quiniela/resultados/la-quiniela-resultados-del-20-de-junio-de-2021"},{"tituloRelacion":"Escrutinio
+        Automatico","tituloContenido":"La Quiniela: premios y ganadores del 20 de
+        junio de 2021","urlContenido":"/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-20-de-junio-de-2021"},{"tituloRelacion":"Bote
+        Automatico","tituloContenido":"La Quiniela: bote de 1.300.000\u20ac","urlContenido":"/la-quiniela/botes/la-quiniela-bote-de-1-300-000euro-20-de-junio-de-2021"}],"enlaces":[],"puntosDeVenta":[],"documentos":[{"tituloRelacion":null,"tituloContenido":"Nota
+        de prensa del sorteo del 27/06/2021 Quiniela","urlContenido":"/f/loterias/documentos/Quiniela/Notas
+        de prensa/NOTA_DE_PRENSA_DE_LA_QUINIELA_DE_FECHA__27_6_21.pdf"}],"imagenes":[],"preguntasFrecuentes":[],"paginasLibres":[]},"elige8":{"gameid":"ELG8","relsorteoid_asociado":"1131313032","activo":"1"},"escrutinioElige8":[{"tipo":"8
+        Acertados 8 ","categoria":1,"premio":"2624,2","ganadores":"9"}]},{"fecha_sorteo":"2021-06-13
+        22:58:00","dia_semana":"domingo","id_sorteo":"1130606031","game_id":"LAQU","anyo":"2021","numero":31,"premio_bote":"1000000","cdc":"11306","apuestas":"1615054","recaudacion":"121129050","combinacion":"X
+        - 2 - 1 - 1 - 1 - 1 - 2 - 2 - 1 - X - 1 - 2 - 2 - X - 00","premios":"66620978","fondo_bote":"80556926","escrutinio":[{"tipo":"Pleno
+        al 15 ","categoria":1,"premio":"0","ganadores":"0"},{"tipo":"1\u00aa (14 Aciertos)
+        ","categoria":2,"premio":"0","ganadores":"0"},{"tipo":"2\u00aa (13 Aciertos)
+        ","categoria":3,"premio":"15141,13","ganadores":"6"},{"tipo":"3\u00aa (12
+        Aciertos) ","categoria":4,"premio":"513,26","ganadores":"177"},{"tipo":"4\u00aa
+        (11 Aciertos) ","categoria":5,"premio":"40,09","ganadores":"2266"},{"tipo":"5\u00aa
+        (10 Aciertos) ","categoria":6,"premio":"6,94","ganadores":"15719"}],"partidos":[{"posicion":1,"idLocal":369,"local":"Gales","idVisitante":219,"visitante":"Suiza","signo":"X
+        ","marcador":"1 - 1","fecha":"12-06-2021","hora":"15:00","fecha_completa":"2021-06-12
+        15:00:00"},{"posicion":2,"idLocal":197,"local":"Dinamarca","idVisitante":228,"visitante":"Finlandia","signo":"2
+        ","marcador":"0 - 1","fecha":"12-06-2021","hora":"18:00","fecha_completa":"2021-06-12
+        18:00:00"},{"posicion":3,"idLocal":139,"local":"B\u00e9lgica","idVisitante":350,"visitante":"Rusia","signo":"1
+        ","marcador":"3 - 0","fecha":"12-06-2021","hora":"21:00","fecha_completa":"2021-06-12
+        21:00:00"},{"posicion":4,"idLocal":52,"local":"Inglaterra","idVisitante":233,"visitante":"Croacia","signo":"1
+        ","marcador":"1 - 0","fecha":"13-06-2021","hora":"15:00","fecha_completa":"2021-06-13
+        15:00:00"},{"posicion":5,"idLocal":188,"local":"Austria","idVisitante":3415,"visitante":"Ary
+        Macedonia","signo":"1 ","marcador":"3 - 1","fecha":"13-06-2021","hora":"18:00","fecha_completa":"2021-06-13
+        18:00:00"},{"posicion":6,"idLocal":3434,"local":"Pa\u00edses Bajos","idVisitante":481,"visitante":"Ucrania","signo":"1
+        ","marcador":"3 - 2","fecha":"13-06-2021","hora":"21:00","fecha_completa":"2021-06-13
+        21:00:00"},{"posicion":7,"idLocal":241,"local":"Escocia","idVisitante":225,"visitante":"Rep.
+        Checa","signo":"2 ","marcador":"0 - 2","fecha":"14-06-2021","hora":"15:00","fecha_completa":"2021-06-14
+        15:00:00"},{"posicion":8,"idLocal":186,"local":"Polonia","idVisitante":191,"visitante":"Eslovaquia","signo":"2
+        ","marcador":"1 - 2","fecha":"14-06-2021","hora":"18:00","fecha_completa":"2021-06-14
+        18:00:00"},{"posicion":9,"idLocal":1387,"local":"Flamengo","idVisitante":2333,"visitante":"Am\u00e9rica
+        Mineiro","signo":"1 ","marcador":"2 - 0","fecha":"13-06-2021","hora":"21:00","fecha_completa":"2021-06-13
+        21:00:00"},{"posicion":10,"idLocal":1420,"local":"Palmeiras","idVisitante":1417,"visitante":"Corinthians","signo":"X
+        ","marcador":"1 - 1","fecha":"13-06-2021","hora":"00:00","fecha_completa":"2021-06-13
+        00:00:00"},{"posicion":11,"idLocal":1402,"local":"Atl\u00e9tico Mineiro","idVisitante":1385,"visitante":"Sao
+        Paulo","signo":"1 ","marcador":"1 - 0","fecha":"13-06-2021","hora":"21:00","fecha_completa":"2021-06-13
+        21:00:00"},{"posicion":12,"idLocal":1111,"local":"Gremio","idVisitante":1423,"visitante":"At.
+        Paranaense","signo":"2 ","marcador":"0 - 1","fecha":"13-06-2021","hora":"21:00","fecha_completa":"2021-06-13
+        21:00:00"},{"posicion":13,"idLocal":2327,"local":"Bahia","idVisitante":1428,"visitante":"Internacional","signo":"2
+        ","marcador":"0 - 1","fecha":"14-06-2021","hora":"01:30","fecha_completa":"2021-06-14
+        01:30:00"},{"posicion":14,"idLocal":1901,"local":"Bragantino","idVisitante":1427,"visitante":"Fluminense","signo":"X
+        ","marcador":"2 - 2","fecha":"14-06-2021","hora":"01:30","fecha_completa":"2021-06-14
+        01:30:00"},{"posicion":15,"idLocal":181,"local":"Espa\u00f1a","idVisitante":211,"visitante":"Suecia","signo":"0-0","marcador":"0
+        - 0","fecha":"14-06-2021","hora":"21:00","fecha_completa":"2021-06-14 21:00:00"}],"temporada":"2020-2021","jornada":"55","contenidosRelacionados":{"noticias":[{"tituloRelacion":"Bote
+        Automatico","tituloContenido":"La Quiniela: bote de 1.000.000\u20ac","urlContenido":"/la-quiniela/botes/la-quiniela-bote-de-1-000-000euro-13-de-junio-de-2021"},{"tituloRelacion":"Resultado
+        Automatico","tituloContenido":"La Quiniela: resultados del 13 de junio de
+        2021","urlContenido":"/la-quiniela/resultados/la-quiniela-resultados-del-13-de-junio-de-2021"},{"tituloRelacion":"Escrutinio
+        Automatico","tituloContenido":"La Quiniela: premios y ganadores del 13 de
+        junio de 2021","urlContenido":"/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-13-de-junio-de-2021"}],"enlaces":[],"puntosDeVenta":[],"documentos":[{"tituloRelacion":null,"tituloContenido":"Nota
+        de prensa del sorteo del 13/06/2021 Quiniela","urlContenido":"/f/loterias/documentos/Quiniela/Notas
+        de prensa/NOTA_DE_PRENSA_DE_LA_QUINIELA_DE_FECHA_13_06_21.pdf"}],"imagenes":[],"preguntasFrecuentes":[],"paginasLibres":[]},"elige8":{"gameid":"ELG8","relsorteoid_asociado":"1130613031","activo":"1"},"escrutinioElige8":[{"tipo":"8
+        Acertados 8 ","categoria":1,"premio":"1900,48","ganadores":"11"}]},{"fecha_sorteo":"2021-06-06
+        01:11:00","dia_semana":"domingo","id_sorteo":"1129906030","game_id":"LAQU","anyo":"2021","numero":30,"premio_bote":"0","cdc":"11299","apuestas":"1317769","recaudacion":"98832675","combinacion":"1
+        - X - 1 - 1 - 1 - 1 - 1 - 2 - 2 - X - 1 - 1 - 1 - 2 - 10","premios":"54357971","fondo_bote":"0","escrutinio":[{"tipo":"Pleno
+        al 15 ","categoria":1,"premio":"37062,26","ganadores":"2"},{"tipo":"1\u00aa
+        (14 Aciertos) ","categoria":2,"premio":"2680,21","ganadores":"59"},{"tipo":"2\u00aa
+        (13 Aciertos) ","categoria":3,"premio":"49,98","ganadores":"1483"},{"tipo":"3\u00aa
+        (12 Aciertos) ","categoria":4,"premio":"5,72","ganadores":"12968"},{"tipo":"4\u00aa
+        (11 Aciertos) ","categoria":5,"premio":"1,19","ganadores":"62428"},{"tipo":"5\u00aa
+        (10 Aciertos) ","categoria":6,"premio":"0","ganadores":"167684"}],"partidos":[{"posicion":1,"idLocal":350,"local":"Rusia","idVisitante":154,"visitante":"Bulgaria","signo":"1
+        ","marcador":"1 - 0","fecha":"05-06-2021","hora":"17:00","fecha_completa":"2021-06-05
+        17:00:00"},{"posicion":2,"idLocal":369,"local":"Gales","idVisitante":122,"visitante":"Albania","signo":"X
+        ","marcador":"0 - 0","fecha":"05-06-2021","hora":"18:00","fecha_completa":"2021-06-05
+        18:00:00"},{"posicion":3,"idLocal":211,"local":"Suecia","idVisitante":207,"visitante":"Armenia","signo":"1
+        ","marcador":"3 - 1","fecha":"05-06-2021","hora":"20:45","fecha_completa":"2021-06-05
+        20:45:00"},{"posicion":4,"idLocal":727,"local":"Argelia","idVisitante":3455,"visitante":"Mal\u00ed","signo":"1
+        ","marcador":"1 - 0","fecha":"06-06-2021","hora":"21:45","fecha_completa":"2021-06-06
+        21:45:00"},{"posicion":5,"idLocal":52,"local":"Inglaterra","idVisitante":354,"visitante":"Ruman\u00eda","signo":"1
+        ","marcador":"1 - 0","fecha":"06-06-2021","hora":"18:00","fecha_completa":"2021-06-06
+        18:00:00"},{"posicion":6,"idLocal":197,"local":"Dinamarca","idVisitante":196,"visitante":"Bosnia
+        Herzegovina","signo":"1 ","marcador":"2 - 0","fecha":"06-06-2021","hora":"18:00","fecha_completa":"2021-06-06
+        18:00:00"},{"posicion":7,"idLocal":3434,"local":"Pa\u00edses Bajos","idVisitante":240,"visitante":"Georgia","signo":"1
+        ","marcador":"3 - 0","fecha":"06-06-2021","hora":"18:00","fecha_completa":"2021-06-06
+        18:00:00"},{"posicion":8,"idLocal":220,"local":"Luxemburgo","idVisitante":241,"visitante":"Escocia","signo":"2
+        ","marcador":"0 - 1","fecha":"06-06-2021","hora":"18:00","fecha_completa":"2021-06-06
+        18:00:00"},{"posicion":9,"idLocal":190,"local":"Noruega","idVisitante":223,"visitante":"Grecia","signo":"2
+        ","marcador":"1 - 2","fecha":"06-06-2021","hora":"19:00","fecha_completa":"2021-06-06
+        19:00:00"},{"posicion":10,"idLocal":188,"local":"Austria","idVisitante":191,"visitante":"Eslovaquia","signo":"X
+        ","marcador":"0 - 0","fecha":"06-06-2021","hora":"17:30","fecha_completa":"2021-06-06
+        17:30:00"},{"posicion":11,"idLocal":363,"local":"Moldavia","idVisitante":527,"visitante":"Azerbaiy\u00e1n","signo":"1
+        ","marcador":"1 - 0","fecha":"06-06-2021","hora":"18:00","fecha_completa":"2021-06-06
+        18:00:00"},{"posicion":12,"idLocal":1427,"local":"Fluminense","idVisitante":3436,"visitante":"Cuiab\u00e1","signo":"1
+        ","marcador":"1 - 0","fecha":"06-06-2021","hora":"16:00","fecha_completa":"2021-06-06
+        16:00:00"},{"posicion":13,"idLocal":1420,"local":"Palmeiras","idVisitante":1392,"visitante":"Chapecoense","signo":"1
+        ","marcador":"3 - 1","fecha":"06-06-2021","hora":"23:15","fecha_completa":"2021-06-06
+        23:15:00"},{"posicion":14,"idLocal":2333,"local":"Am\u00e9rica Mineiro","idVisitante":1417,"visitante":"Corinthians","signo":"2
+        ","marcador":"0 - 1","fecha":"06-06-2021","hora":"21:00","fecha_completa":"2021-06-06
+        21:00:00"},{"posicion":15,"idLocal":139,"local":"B\u00e9lgica","idVisitante":233,"visitante":"Croacia","signo":"1-0","marcador":"1
+        - 0","fecha":"06-06-2021","hora":"20:45","fecha_completa":"2021-06-06 20:45:00"}],"temporada":"2020-2021","jornada":"54","contenidosRelacionados":{"noticias":[{"tituloRelacion":"Resultado
+        Automatico","tituloContenido":"La Quiniela: resultados del 06 de junio de
+        2021","urlContenido":"/la-quiniela/resultados/la-quiniela-resultados-del-06-de-junio-de-2021"},{"tituloRelacion":"Escrutinio
+        Automatico","tituloContenido":"La Quiniela: premios y ganadores del 06 de
+        junio de 2021","urlContenido":"/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-06-de-junio-de-2021"},{"tituloRelacion":"Premio
+        Automatico","tituloContenido":"Pleno al 15 de La Quiniela del 06 de junio
+        de 2021","urlContenido":"/premios/pleno-al-15-de-la-quiniela-del-06-de-junio-de-2021"},{"tituloRelacion":"Premio
+        Automatico 2","tituloContenido":"Premio de 14 aciertos de La Quiniela del
+        06 de junio de 2021","urlContenido":"/premios/premio-de-14-aciertos-de-la-quiniela-del-06-de-junio-de-2021"}],"enlaces":[],"puntosDeVenta":[],"documentos":[{"tituloRelacion":null,"tituloContenido":"Nota
+        de prensa del sorteo del 06/06/2021 Quiniela","urlContenido":"/f/loterias/documentos/Quiniela/Notas
+        de prensa/NOTA_DE_PRENSA_DE_LA_QUINIELA_DE_FECHA_06_06_21.pdf"}],"imagenes":[],"preguntasFrecuentes":[],"paginasLibres":[]},"elige8":{"gameid":"ELG8","relsorteoid_asociado":"1129913030","activo":"1"},"escrutinioElige8":[{"tipo":"8
+        Acertados 8 ","categoria":1,"premio":"12,97","ganadores":"1400"}]},{"fecha_sorteo":"2021-05-30
+        01:11:00","dia_semana":"domingo","id_sorteo":"1129206029","game_id":"LAQU","anyo":"2021","numero":29,"premio_bote":"0","cdc":"11292","apuestas":"1931323","recaudacion":"144849225","combinacion":"2
+        - X - 2 - 1 - 2 - X - 2 - 2 - 2 - X - 1 - 2 - 1 - 2 - 10","premios":"79667074","fondo_bote":"0","escrutinio":[{"tipo":"Pleno
+        al 15 ","categoria":1,"premio":"0","ganadores":"0"},{"tipo":"1\u00aa (14 Aciertos)
+        ","categoria":2,"premio":"0","ganadores":"0"},{"tipo":"2\u00aa (13 Aciertos)
+        ","categoria":3,"premio":"108636,92","ganadores":"1"},{"tipo":"3\u00aa (12
+        Aciertos) ","categoria":4,"premio":"4023,59","ganadores":"27"},{"tipo":"4\u00aa
+        (11 Aciertos) ","categoria":5,"premio":"318,58","ganadores":"341"},{"tipo":"5\u00aa
+        (10 Aciertos) ","categoria":6,"premio":"55,05","ganadores":"2368"}],"partidos":[{"posicion":1,"idLocal":105,"local":"Albacete","idVisitante":2589,"visitante":"Fuenlabrada","signo":"2
+        ","marcador":"1 - 2","fecha":"30-05-2021","hora":"18:30","fecha_completa":"2021-05-30
+        18:30:00"},{"posicion":2,"idLocal":533,"local":"Cartagena","idVisitante":166,"visitante":"Girona","signo":"X
+        ","marcador":"1 - 1","fecha":"30-05-2021","hora":"21:00","fecha_completa":"2021-05-30
+        21:00:00"},{"posicion":3,"idLocal":701,"local":"Logro\u00f1\u00e9s","idVisitante":126,"visitante":"Las
+        Palmas","signo":"2 ","marcador":"0 - 1","fecha":"30-05-2021","hora":"21:00","fecha_completa":"2021-05-30
+        21:00:00"},{"posicion":4,"idLocal":113,"local":"M\u00e1laga","idVisitante":130,"visitante":"Castell\u00f3n","signo":"1
+        ","marcador":"3 - 0","fecha":"30-05-2021","hora":"21:00","fecha_completa":"2021-05-30
+        21:00:00"},{"posicion":5,"idLocal":965,"local":"Mirand\u00e9s","idVisitante":907,"visitante":"Sabadell","signo":"2
+        ","marcador":"0 - 2","fecha":"30-05-2021","hora":"21:00","fecha_completa":"2021-05-30
+        21:00:00"},{"posicion":6,"idLocal":745,"local":"Ponferradina","idVisitante":10,"visitante":"Mallorca","signo":"X
+        ","marcador":"2 - 2","fecha":"30-05-2021","hora":"21:00","fecha_completa":"2021-05-30
+        21:00:00"},{"posicion":7,"idLocal":156,"local":"Rayo Vallecano","idVisitante":826,"visitante":"Lugo","signo":"2
+        ","marcador":"0 - 1","fecha":"30-05-2021","hora":"21:00","fecha_completa":"2021-05-30
+        21:00:00"},{"posicion":8,"idLocal":16,"local":"Zaragoza","idVisitante":1151,"visitante":"Legan\u00e9s","signo":"2
+        ","marcador":"0 - 5","fecha":"30-05-2021","hora":"21:00","fecha_completa":"2021-05-30
+        21:00:00"},{"posicion":9,"idLocal":107,"local":"Sporting","idVisitante":18,"visitante":"Almer\u00eda","signo":"2
+        ","marcador":"0 - 2","fecha":"30-05-2021","hora":"21:00","fecha_completa":"2021-05-30
+        21:00:00"},{"posicion":10,"idLocal":108,"local":"Tenerife","idVisitante":1000,"visitante":"R.
+        Oviedo","signo":"X ","marcador":"2 - 2","fecha":"29-05-2021","hora":"18:30","fecha_completa":"2021-05-29
+        18:30:00"},{"posicion":11,"idLocal":1387,"local":"Flamengo","idVisitante":1420,"visitante":"Palmeiras","signo":"1
+        ","marcador":"1 - 0","fecha":"30-05-2021","hora":"21:00","fecha_completa":"2021-05-30
+        21:00:00"},{"posicion":12,"idLocal":1417,"local":"Corinthians","idVisitante":1898,"visitante":"At.
+        Goianiense","signo":"2 ","marcador":"0 - 1","fecha":"30-05-2021","hora":"23:15","fecha_completa":"2021-05-30
+        23:15:00"},{"posicion":13,"idLocal":2340,"local":"Cear\u00e1","idVisitante":1111,"visitante":"Gremio","signo":"1
+        ","marcador":"3 - 2","fecha":"30-05-2021","hora":"21:00","fecha_completa":"2021-05-30
+        21:00:00"},{"posicion":14,"idLocal":1392,"local":"Chapecoense","idVisitante":1901,"visitante":"Bragantino","signo":"2
+        ","marcador":"0 - 3","fecha":"30-05-2021","hora":"23:15","fecha_completa":"2021-05-30
+        23:15:00"},{"posicion":15,"idLocal":604,"local":"Alcorc\u00f3n","idVisitante":9,"visitante":"Espanyol","signo":"1-0","marcador":"1
+        - 0","fecha":"30-05-2021","hora":"21:00","fecha_completa":"2021-05-30 21:00:00"}],"temporada":"2020-2021","jornada":"53","contenidosRelacionados":{"noticias":[{"tituloRelacion":"Resultado
+        Automatico","tituloContenido":"La Quiniela: resultados del 30 de mayo de 2021","urlContenido":"/la-quiniela/resultados/la-quiniela-resultados-del-30-de-mayo-de-2021"},{"tituloRelacion":"Escrutinio
+        Automatico","tituloContenido":"La Quiniela: premios y ganadores del 30 de
+        mayo de 2021","urlContenido":"/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-30-de-mayo-de-2021"}],"enlaces":[],"puntosDeVenta":[],"documentos":[{"tituloRelacion":null,"tituloContenido":"Nota
+        de prensa del sorteo del 30/05/2021 Quiniela","urlContenido":"/f/loterias/documentos/Quiniela/Notas
+        de prensa/NOTA_DE_PRENSA_DE_LA_QUINIELA_DE_FECHA_30_5_21.pdf"}],"imagenes":[],"preguntasFrecuentes":[],"paginasLibres":[]},"elige8":{"gameid":"ELG8","relsorteoid_asociado":"1129213029","activo":"1"},"escrutinioElige8":[{"tipo":"8
+        Acertados 8 ","categoria":1,"premio":"11467,92","ganadores":"2"}]},{"fecha_sorteo":"2021-05-23
+        22:55:00","dia_semana":"domingo","id_sorteo":"1128506028","game_id":"LAQU","anyo":"2021","numero":28,"premio_bote":"1500000","cdc":"11285","apuestas":"3752944","recaudacion":"281470800","combinacion":"2
+        - 2 - X - X - X - 2 - 1 - 1 - 1 - 1 - X - 1 - 1 - X - 12","premios":"154808940","fondo_bote":"66218837","escrutinio":[{"tipo":"Pleno
+        al 15 ","categoria":1,"premio":"145548,58","ganadores":"6"},{"tipo":"1\u00aa
+        (14 Aciertos) ","categoria":2,"premio":"12867,24","ganadores":"35"},{"tipo":"2\u00aa
+        (13 Aciertos) ","categoria":3,"premio":"186,82","ganadores":"1130"},{"tipo":"3\u00aa
+        (12 Aciertos) ","categoria":4,"premio":"20,03","ganadores":"10539"},{"tipo":"4\u00aa
+        (11 Aciertos) ","categoria":5,"premio":"3,67","ganadores":"57483"},{"tipo":"5\u00aa
+        (10 Aciertos) ","categoria":6,"premio":"0","ganadores":"200635"}],"partidos":[{"posicion":1,"idLocal":111,"local":"Celta","idVisitante":11,"visitante":"Betis","signo":"2
+        ","marcador":"2 - 3","fecha":"22-05-2021","hora":"18:00","fecha_completa":"2021-05-22
+        18:00:00"},{"posicion":2,"idLocal":124,"local":"Eibar","idVisitante":4,"visitante":"Barcelona","signo":"2
+        ","marcador":"0 - 1","fecha":"22-05-2021","hora":"18:00","fecha_completa":"2021-05-22
+        18:00:00"},{"posicion":3,"idLocal":564,"local":"Granada","idVisitante":5,"visitante":"Getafe","signo":"X
+        ","marcador":"0 - 0","fecha":"23-05-2021","hora":"18:30","fecha_completa":"2021-05-23
+        18:30:00"},{"posicion":4,"idLocal":200,"local":"Huesca","idVisitante":19,"visitante":"Valencia","signo":"X
+        ","marcador":"0 - 0","fecha":"22-05-2021","hora":"18:00","fecha_completa":"2021-05-22
+        18:00:00"},{"posicion":5,"idLocal":6,"local":"Levante","idVisitante":110,"visitante":"C\u00e1diz","signo":"X
+        ","marcador":"2 - 2","fecha":"21-05-2021","hora":"21:00","fecha_completa":"2021-05-21
+        21:00:00"},{"posicion":6,"idLocal":2,"local":"Osasuna","idVisitante":125,"visitante":"Real
+        Sociedad","signo":"2 ","marcador":"0 - 1","fecha":"22-05-2021","hora":"18:00","fecha_completa":"2021-05-22
+        18:00:00"},{"posicion":7,"idLocal":12,"local":"Real Madrid","idVisitante":20,"visitante":"Villarreal","signo":"1
+        ","marcador":"2 - 1","fecha":"22-05-2021","hora":"18:00","fecha_completa":"2021-05-22
+        18:00:00"},{"posicion":8,"idLocal":17,"local":"Sevilla","idVisitante":374,"visitante":"Alav\u00e9s","signo":"1
+        ","marcador":"1 - 0","fecha":"23-05-2021","hora":"21:00","fecha_completa":"2021-05-23
+        21:00:00"},{"posicion":9,"idLocal":131,"local":"Elche","idVisitante":1,"visitante":"Athletic
+        Club","signo":"1 ","marcador":"2 - 0","fecha":"22-05-2021","hora":"18:00","fecha_completa":"2021-05-22
+        18:00:00"},{"posicion":10,"idLocal":18,"local":"Almer\u00eda","idVisitante":701,"visitante":"Logro\u00f1\u00e9s","signo":"1
+        ","marcador":"2 - 1","fecha":"24-05-2021","hora":"21:00","fecha_completa":"2021-05-24
+        21:00:00"},{"posicion":11,"idLocal":9,"local":"Espanyol","idVisitante":108,"visitante":"Tenerife","signo":"X
+        ","marcador":"1 - 1","fecha":"23-05-2021","hora":"18:15","fecha_completa":"2021-05-23
+        18:15:00"},{"posicion":12,"idLocal":1151,"local":"Legan\u00e9s","idVisitante":113,"visitante":"M\u00e1laga","signo":"1
+        ","marcador":"1 - 0","fecha":"24-05-2021","hora":"21:00","fecha_completa":"2021-05-24
+        21:00:00"},{"posicion":13,"idLocal":10,"local":"Mallorca","idVisitante":16,"visitante":"Zaragoza","signo":"1
+        ","marcador":"2 - 1","fecha":"23-05-2021","hora":"18:15","fecha_completa":"2021-05-23
+        18:15:00"},{"posicion":14,"idLocal":2589,"local":"Fuenlabrada","idVisitante":107,"visitante":"Sporting","signo":"X
+        ","marcador":"0 - 0","fecha":"24-05-2021","hora":"21:00","fecha_completa":"2021-05-24
+        21:00:00"},{"posicion":15,"idLocal":15,"local":"Valladolid","idVisitante":3,"visitante":"At.
+        Madrid","signo":"1-2","marcador":"1 - 2","fecha":"22-05-2021","hora":"18:00","fecha_completa":"2021-05-22
+        18:00:00"}],"temporada":"2020-2021","jornada":"52","contenidosRelacionados":{"noticias":[{"tituloRelacion":"Bote
+        Automatico","tituloContenido":"La Quiniela: bote de 1.500.000\u20ac","urlContenido":"/la-quiniela/botes/la-quiniela-bote-de-1-500-000euro-23-de-mayo-de-2021"},{"tituloRelacion":"Resultado
+        Automatico","tituloContenido":"La Quiniela: resultados del 23 de mayo de 2021","urlContenido":"/la-quiniela/resultados/la-quiniela-resultados-del-23-de-mayo-de-2021"},{"tituloRelacion":"Escrutinio
+        Automatico","tituloContenido":"La Quiniela: premios y ganadores del 23 de
+        mayo de 2021","urlContenido":"/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-23-de-mayo-de-2021"},{"tituloRelacion":"Premio
+        Automatico 2","tituloContenido":"Premio de 14 aciertos de La Quiniela del
+        23 de mayo de 2021","urlContenido":"/premios/premio-de-14-aciertos-de-la-quiniela-del-23-de-mayo-de-2021"},{"tituloRelacion":"Premio
+        Automatico","tituloContenido":"Pleno al 15 de La Quiniela del 23 de mayo de
+        2021","urlContenido":"/premios/pleno-al-15-de-la-quiniela-del-23-de-mayo-de-2021"}],"enlaces":[],"puntosDeVenta":[],"documentos":[{"tituloRelacion":null,"tituloContenido":"Nota
+        de prensa del sorteo del 24/05/2021 Quiniela","urlContenido":"/f/loterias/documentos/Quiniela/Notas
+        de prensa/NOTA_DE_PRENSA_DE_LA_QUINIELA_DE_FECHA_23_5_21.pdf"}],"imagenes":[],"preguntasFrecuentes":[],"paginasLibres":[]},"elige8":{"gameid":"ELG8","relsorteoid_asociado":"1128513028","activo":"1"},"escrutinioElige8":[{"tipo":"8
+        Acertados 8 ","categoria":1,"premio":"63,17","ganadores":"558"}]},{"fecha_sorteo":"2021-05-19
+        23:22:00","dia_semana":"mi\u00e9rcoles","id_sorteo":"1128106027","game_id":"LAQU","anyo":"2021","numero":27,"premio_bote":"0","cdc":"11281","apuestas":"993135","recaudacion":"74485125","combinacion":"X
+        - 1 - 1 - 1 - 2 - X - 1 - 1 - 1 - 2 - X - 2 - 1 - 1 - 1M","premios":"40966819","fondo_bote":"0","escrutinio":[{"tipo":"Pleno
+        al 15 ","categoria":1,"premio":"0","ganadores":"0"},{"tipo":"1\u00aa (14 Aciertos)
+        ","categoria":2,"premio":"2090,81","ganadores":"57"},{"tipo":"2\u00aa (13
+        Aciertos) ","categoria":3,"premio":"49,22","ganadores":"1135"},{"tipo":"3\u00aa
+        (12 Aciertos) ","categoria":4,"premio":"6,56","ganadores":"8519"},{"tipo":"4\u00aa
+        (11 Aciertos) ","categoria":5,"premio":"1,48","ganadores":"37744"},{"tipo":"5\u00aa
+        (10 Aciertos) ","categoria":6,"premio":"0","ganadores":"102649"}],"partidos":[{"posicion":1,"idLocal":105,"local":"Albacete","idVisitante":826,"visitante":"Lugo","signo":"X
+        ","marcador":"1 - 1","fecha":"18-05-2021","hora":"21:30","fecha_completa":"2021-05-18
+        21:30:00"},{"posicion":2,"idLocal":604,"local":"Alcorc\u00f3n","idVisitante":907,"visitante":"Sabadell","signo":"1
+        ","marcador":"2 - 0","fecha":"19-05-2021","hora":"19:00","fecha_completa":"2021-05-19
+        19:00:00"},{"posicion":3,"idLocal":533,"local":"Cartagena","idVisitante":18,"visitante":"Almer\u00eda","signo":"1
+        ","marcador":"3 - 2","fecha":"18-05-2021","hora":"19:00","fecha_completa":"2021-05-18
+        19:00:00"},{"posicion":4,"idLocal":701,"local":"Logro\u00f1\u00e9s","idVisitante":2589,"visitante":"Fuenlabrada","signo":"1
+        ","marcador":"1 - 0","fecha":"19-05-2021","hora":"19:00","fecha_completa":"2021-05-19
+        19:00:00"},{"posicion":5,"idLocal":113,"local":"M\u00e1laga","idVisitante":166,"visitante":"Girona","signo":"2
+        ","marcador":"0 - 1","fecha":"20-05-2021","hora":"19:00","fecha_completa":"2021-05-20
+        19:00:00"},{"posicion":6,"idLocal":965,"local":"Mirand\u00e9s","idVisitante":1151,"visitante":"Legan\u00e9s","signo":"X
+        ","marcador":"0 - 0","fecha":"19-05-2021","hora":"21:30","fecha_completa":"2021-05-19
+        21:30:00"},{"posicion":7,"idLocal":156,"local":"Rayo Vallecano","idVisitante":1000,"visitante":"R.
+        Oviedo","signo":"1 ","marcador":"4 - 1","fecha":"20-05-2021","hora":"21:30","fecha_completa":"2021-05-20
+        21:30:00"},{"posicion":8,"idLocal":16,"local":"Zaragoza","idVisitante":130,"visitante":"Castell\u00f3n","signo":"1
+        ","marcador":"3 - 0","fecha":"20-05-2021","hora":"21:30","fecha_completa":"2021-05-20
+        21:30:00"},{"posicion":9,"idLocal":107,"local":"Sporting","idVisitante":126,"visitante":"Las
+        Palmas","signo":"1 ","marcador":"1 - 0","fecha":"20-05-2021","hora":"19:00","fecha_completa":"2021-05-20
+        19:00:00"},{"posicion":10,"idLocal":108,"local":"Tenerife","idVisitante":10,"visitante":"Mallorca","signo":"2
+        ","marcador":"0 - 1","fecha":"19-05-2021","hora":"21:30","fecha_completa":"2021-05-19
+        21:30:00"},{"posicion":11,"idLocal":3424,"local":"Portimonense","idVisitante":460,"visitante":"Braga","signo":"X
+        ","marcador":"0 - 0","fecha":"19-05-2021","hora":"21:00","fecha_completa":"2021-05-19
+        21:00:00"},{"posicion":12,"idLocal":3427,"local":"Guimaraes","idVisitante":78,"visitante":"Benfica","signo":"2
+        ","marcador":"1 - 3","fecha":"19-05-2021","hora":"21:00","fecha_completa":"2021-05-19
+        21:00:00"},{"posicion":13,"idLocal":82,"local":"Sporting Lisboa","idVisitante":3429,"visitante":"Mar\u00edtimo","signo":"1
+        ","marcador":"5 - 1","fecha":"19-05-2021","hora":"22:45","fecha_completa":"2021-05-19
+        22:45:00"},{"posicion":14,"idLocal":3305,"local":"Oporto","idVisitante":3432,"visitante":"Belenenses","signo":"1
+        ","marcador":"4 - 0","fecha":"19-05-2021","hora":"19:00","fecha_completa":"2021-05-19
+        19:00:00"},{"posicion":15,"idLocal":745,"local":"Ponferradina","idVisitante":9,"visitante":"Espanyol","signo":"1-M","marcador":"1
+        - 4","fecha":"18-05-2021","hora":"21:30","fecha_completa":"2021-05-18 21:30:00"}],"temporada":"2020-2021","jornada":"51","contenidosRelacionados":{"noticias":[{"tituloRelacion":"Premio
+        Automatico 2","tituloContenido":"Premio de 14 aciertos de La Quiniela del
+        19 de mayo de 2021","urlContenido":"/premios/premio-de-14-aciertos-de-la-quiniela-del-19-de-mayo-de-2021"},{"tituloRelacion":"Resultado
+        Automatico","tituloContenido":"La Quiniela: resultados del 19 de mayo de 2021","urlContenido":"/la-quiniela/resultados/la-quiniela-resultados-del-19-de-mayo-de-2021"},{"tituloRelacion":"Escrutinio
+        Automatico","tituloContenido":"La Quiniela: premios y ganadores del 19 de
+        mayo de 2021","urlContenido":"/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-19-de-mayo-de-2021"}],"enlaces":[],"puntosDeVenta":[],"documentos":[{"tituloRelacion":null,"tituloContenido":"Nota
+        de prensa del sorteo del 19/05/2021 Quiniela","urlContenido":"/f/loterias/documentos/Quiniela/Notas
+        de prensa/NOTA_DE_PRENSA_DE_LA_QUINIELA_DE_FECHA_19_5_21.pdf"}],"imagenes":[],"preguntasFrecuentes":[],"paginasLibres":[]},"elige8":{"gameid":"ELG8","relsorteoid_asociado":"1128113027","activo":"1"},"escrutinioElige8":[{"tipo":"8
+        Acertados 8 ","categoria":1,"premio":"14,38","ganadores":"972"}]},{"fecha_sorteo":"2021-05-16
+        22:50:00","dia_semana":"domingo","id_sorteo":"1127806026","game_id":"LAQU","anyo":"2021","numero":26,"premio_bote":"2100000","cdc":"11278","apuestas":"4767709","recaudacion":"357578175","combinacion":"1
+        - 1 - 2 - 1 - 1 - 2 - 1 - 1 - 1 - X - 1 - 2 - 1 - 1 - 01","premios":"196667996","fondo_bote":"125992854","escrutinio":[{"tipo":"Pleno
+        al 15 ","categoria":1,"premio":"764056,09","ganadores":"2"},{"tipo":"1\u00aa
+        (14 Aciertos) ","categoria":2,"premio":"21189,82","ganadores":"27"},{"tipo":"2\u00aa
+        (13 Aciertos) ","categoria":3,"premio":"342,51","ganadores":"783"},{"tipo":"3\u00aa
+        (12 Aciertos) ","categoria":4,"premio":"27,68","ganadores":"9687"},{"tipo":"4\u00aa
+        (11 Aciertos) ","categoria":5,"premio":"4,23","ganadores":"63415"},{"tipo":"5\u00aa
+        (10 Aciertos) ","categoria":6,"premio":"0","ganadores":"239079"}],"partidos":[{"posicion":1,"idLocal":374,"local":"Alav\u00e9s","idVisitante":564,"visitante":"Granada","signo":"1
+        ","marcador":"4 - 2","fecha":"16-05-2021","hora":"18:30","fecha_completa":"2021-05-16
+        18:30:00"},{"posicion":2,"idLocal":3,"local":"At. Madrid","idVisitante":2,"visitante":"Osasuna","signo":"1
+        ","marcador":"2 - 1","fecha":"16-05-2021","hora":"18:30","fecha_completa":"2021-05-16
+        18:30:00"},{"posicion":3,"idLocal":4,"local":"Barcelona","idVisitante":111,"visitante":"Celta","signo":"2
+        ","marcador":"1 - 2","fecha":"16-05-2021","hora":"18:30","fecha_completa":"2021-05-16
+        18:30:00"},{"posicion":4,"idLocal":11,"local":"Betis","idVisitante":200,"visitante":"Huesca","signo":"1
+        ","marcador":"1 - 0","fecha":"16-05-2021","hora":"18:30","fecha_completa":"2021-05-16
+        18:30:00"},{"posicion":5,"idLocal":5,"local":"Getafe","idVisitante":6,"visitante":"Levante","signo":"1
+        ","marcador":"2 - 1","fecha":"16-05-2021","hora":"18:30","fecha_completa":"2021-05-16
+        18:30:00"},{"posicion":6,"idLocal":110,"local":"C\u00e1diz","idVisitante":131,"visitante":"Elche","signo":"2
+        ","marcador":"1 - 3","fecha":"16-05-2021","hora":"18:30","fecha_completa":"2021-05-16
+        18:30:00"},{"posicion":7,"idLocal":125,"local":"Real Sociedad","idVisitante":15,"visitante":"Valladolid","signo":"1
+        ","marcador":"4 - 1","fecha":"16-05-2021","hora":"18:30","fecha_completa":"2021-05-16
+        18:30:00"},{"posicion":8,"idLocal":19,"local":"Valencia","idVisitante":124,"visitante":"Eibar","signo":"1
+        ","marcador":"4 - 1","fecha":"16-05-2021","hora":"18:30","fecha_completa":"2021-05-16
+        18:30:00"},{"posicion":9,"idLocal":20,"local":"Villarreal","idVisitante":17,"visitante":"Sevilla","signo":"1
+        ","marcador":"4 - 0","fecha":"16-05-2021","hora":"18:30","fecha_completa":"2021-05-16
+        18:30:00"},{"posicion":10,"idLocal":18,"local":"Almer\u00eda","idVisitante":105,"visitante":"Albacete","signo":"X
+        ","marcador":"1 - 1","fecha":"15-05-2021","hora":"21:00","fecha_completa":"2021-05-15
+        21:00:00"},{"posicion":11,"idLocal":10,"local":"Mallorca","idVisitante":604,"visitante":"Alcorc\u00f3n","signo":"1
+        ","marcador":"2 - 0","fecha":"16-05-2021","hora":"20:45","fecha_completa":"2021-05-16
+        20:45:00"},{"posicion":12,"idLocal":2589,"local":"Fuenlabrada","idVisitante":156,"visitante":"Rayo
+        Vallecano","signo":"2 ","marcador":"1 - 2","fecha":"16-05-2021","hora":"16:00","fecha_completa":"2021-05-16
+        16:00:00"},{"posicion":13,"idLocal":166,"local":"Girona","idVisitante":107,"visitante":"Sporting","signo":"1
+        ","marcador":"1 - 0","fecha":"17-05-2021","hora":"21:00","fecha_completa":"2021-05-17
+        21:00:00"},{"posicion":14,"idLocal":1151,"local":"Legan\u00e9s","idVisitante":701,"visitante":"Logro\u00f1\u00e9s","signo":"1
+        ","marcador":"3 - 0","fecha":"16-05-2021","hora":"21:30","fecha_completa":"2021-05-16
+        21:30:00"},{"posicion":15,"idLocal":1,"local":"Athletic Club","idVisitante":12,"visitante":"Real
+        Madrid","signo":"0-1","marcador":"0 - 1","fecha":"16-05-2021","hora":"18:30","fecha_completa":"2021-05-16
+        18:30:00"}],"temporada":"2020-2021","jornada":"50","contenidosRelacionados":{"noticias":[{"tituloRelacion":"Bote
+        Automatico","tituloContenido":"La Quiniela: bote de 2.100.000\u20ac","urlContenido":"/la-quiniela/botes/la-quiniela-bote-de-2-100-000euro-16-de-mayo-de-2021"},{"tituloRelacion":"Resultado
+        Automatico","tituloContenido":"La Quiniela: resultados del 16 de mayo de 2021","urlContenido":"/la-quiniela/resultados/la-quiniela-resultados-del-16-de-mayo-de-2021"},{"tituloRelacion":"Escrutinio
+        Automatico","tituloContenido":"La Quiniela: premios y ganadores del 16 de
+        mayo de 2021","urlContenido":"/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-16-de-mayo-de-2021"},{"tituloRelacion":"Premio
+        Automatico","tituloContenido":"Pleno al 15 de La Quiniela del 16 de mayo de
+        2021","urlContenido":"/premios/pleno-al-15-de-la-quiniela-del-16-de-mayo-de-2021"},{"tituloRelacion":"Premio
+        Automatico 2","tituloContenido":"Premio de 14 aciertos de La Quiniela del
+        16 de mayo de 2021","urlContenido":"/premios/premio-de-14-aciertos-de-la-quiniela-del-16-de-mayo-de-2021"}],"enlaces":[],"puntosDeVenta":[],"documentos":[{"tituloRelacion":null,"tituloContenido":"Nota
+        de prensa del sorteo del 16/05/2021 Quiniela","urlContenido":"/f/loterias/documentos/Quiniela/Notas
+        de prensa/NOTA_DE_PRENSA_DE_LA_QUINIELA_DE_FECHA  _16_5_21.pdf"}],"imagenes":[],"preguntasFrecuentes":[],"paginasLibres":[]},"elige8":{"gameid":"ELG8","relsorteoid_asociado":"1127813026","activo":"1"},"escrutinioElige8":[{"tipo":"8
+        Acertados 8 ","categoria":1,"premio":"148,84","ganadores":"296"}]},{"fecha_sorteo":"2021-05-12
+        23:54:00","dia_semana":"mi\u00e9rcoles","id_sorteo":"1127406025","game_id":"LAQU","anyo":"2021","numero":25,"premio_bote":"0","cdc":"11274","apuestas":"1931166","recaudacion":"144837450","combinacion":"1
+        - 2 - X - 1 - 1 - 1 - 1 - 2 - X - 1 - 2 - X - 1 - 2 - 1M","premios":"79660598","fondo_bote":"0","escrutinio":[{"tipo":"Pleno
+        al 15 ","categoria":1,"premio":"0","ganadores":"0"},{"tipo":"1\u00aa (14 Aciertos)
+        ","categoria":2,"premio":"0","ganadores":"0"},{"tipo":"2\u00aa (13 Aciertos)
+        ","categoria":3,"premio":"7759,15","ganadores":"14"},{"tipo":"3\u00aa (12
+        Aciertos) ","categoria":4,"premio":"568,73","ganadores":"191"},{"tipo":"4\u00aa
+        (11 Aciertos) ","categoria":5,"premio":"74","ganadores":"1468"},{"tipo":"5\u00aa
+        (10 Aciertos) ","categoria":6,"premio":"14,13","ganadores":"9226"}],"partidos":[{"posicion":1,"idLocal":2,"local":"Osasuna","idVisitante":110,"visitante":"C\u00e1diz","signo":"1
+        ","marcador":"3 - 2","fecha":"11-05-2021","hora":"19:00","fecha_completa":"2021-05-11
+        19:00:00"},{"posicion":2,"idLocal":131,"local":"Elche","idVisitante":374,"visitante":"Alav\u00e9s","signo":"2
+        ","marcador":"0 - 2","fecha":"11-05-2021","hora":"20:00","fecha_completa":"2021-05-11
+        20:00:00"},{"posicion":3,"idLocal":6,"local":"Levante","idVisitante":4,"visitante":"Barcelona","signo":"X
+        ","marcador":"3 - 3","fecha":"11-05-2021","hora":"22:00","fecha_completa":"2021-05-11
+        22:00:00"},{"posicion":4,"idLocal":17,"local":"Sevilla","idVisitante":19,"visitante":"Valencia","signo":"1
+        ","marcador":"1 - 0","fecha":"12-05-2021","hora":"19:00","fecha_completa":"2021-05-12
+        19:00:00"},{"posicion":5,"idLocal":111,"local":"Celta","idVisitante":5,"visitante":"Getafe","signo":"1
+        ","marcador":"1 - 0","fecha":"12-05-2021","hora":"20:00","fecha_completa":"2021-05-12
+        20:00:00"},{"posicion":6,"idLocal":200,"local":"Huesca","idVisitante":1,"visitante":"Athletic
+        Club","signo":"1 ","marcador":"1 - 0","fecha":"12-05-2021","hora":"20:00","fecha_completa":"2021-05-12
+        20:00:00"},{"posicion":7,"idLocal":3,"local":"At. Madrid","idVisitante":125,"visitante":"Real
+        Sociedad","signo":"1 ","marcador":"2 - 1","fecha":"12-05-2021","hora":"22:00","fecha_completa":"2021-05-12
+        22:00:00"},{"posicion":8,"idLocal":15,"local":"Valladolid","idVisitante":20,"visitante":"Villarreal","signo":"2
+        ","marcador":"0 - 2","fecha":"13-05-2021","hora":"19:00","fecha_completa":"2021-05-13
+        19:00:00"},{"posicion":9,"idLocal":124,"local":"Eibar","idVisitante":11,"visitante":"Betis","signo":"X
+        ","marcador":"1 - 1","fecha":"13-05-2021","hora":"20:00","fecha_completa":"2021-05-13
+        20:00:00"},{"posicion":10,"idLocal":1530,"local":"Southampton","idVisitante":1539,"visitante":"Crystal
+        Palace","signo":"1 ","marcador":"3 - 1","fecha":"11-05-2021","hora":"21:15","fecha_completa":"2021-05-11
+        21:15:00"},{"posicion":11,"idLocal":65,"local":"Manch. United","idVisitante":1528,"visitante":"Leicester","signo":"2
+        ","marcador":"1 - 2","fecha":"11-05-2021","hora":"19:00","fecha_completa":"2021-05-11
+        19:00:00"},{"posicion":12,"idLocal":436,"local":"Aston Villa","idVisitante":637,"visitante":"Everton","signo":"X
+        ","marcador":"0 - 0","fecha":"13-05-2021","hora":"19:00","fecha_completa":"2021-05-13
+        19:00:00"},{"posicion":13,"idLocal":84,"local":"Inter De Mil\u00e1n","idVisitante":83,"visitante":"Roma","signo":"1
+        ","marcador":"3 - 1","fecha":"12-05-2021","hora":"20:45","fecha_completa":"2021-05-12
+        20:45:00"},{"posicion":14,"idLocal":81,"local":"Chelsea","idVisitante":86,"visitante":"Arsenal","signo":"2
+        ","marcador":"0 - 1","fecha":"12-05-2021","hora":"21:15","fecha_completa":"2021-05-12
+        21:15:00"},{"posicion":15,"idLocal":564,"local":"Granada","idVisitante":12,"visitante":"Real
+        Madrid","signo":"1-M","marcador":"1 - 4","fecha":"13-05-2021","hora":"22:00","fecha_completa":"2021-05-13
+        22:00:00"}],"temporada":"2020-2021","jornada":"49","contenidosRelacionados":{"noticias":[{"tituloRelacion":"Resultado
+        Automatico","tituloContenido":"La Quiniela: resultados del 12 de mayo de 2021","urlContenido":"/la-quiniela/resultados/la-quiniela-resultados-del-12-de-mayo-de-2021"},{"tituloRelacion":"Escrutinio
+        Automatico","tituloContenido":"La Quiniela: premios y ganadores del 12 de
+        mayo de 2021","urlContenido":"/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-12-de-mayo-de-2021"}],"enlaces":[],"puntosDeVenta":[],"documentos":[{"tituloRelacion":null,"tituloContenido":"Nota
+        de prensa del sorteo del 12/05/2021 Quiniela","urlContenido":"/f/loterias/documentos/Quiniela/Notas
+        de prensa/NOTA_DE_PRENSA_DE_LA_QUINIELA_DE_FECHA_13_05_21.pdf"}],"imagenes":[],"preguntasFrecuentes":[],"paginasLibres":[]},"elige8":{"gameid":"ELG8","relsorteoid_asociado":"1127413025","activo":"1"},"escrutinioElige8":[{"tipo":"8
+        Acertados 8 ","categoria":1,"premio":"2277,6","ganadores":"11"}]},{"fecha_sorteo":"2021-05-09
+        22:53:00","dia_semana":"domingo","id_sorteo":"1127106024","game_id":"LAQU","anyo":"2021","numero":24,"premio_bote":"1100000","cdc":"11271","apuestas":"4835447","recaudacion":"362658525","combinacion":"X
+        - X - 1 - X - 2 - 1 - 2 - X - X - X - 1 - 2 - 1 - X - 21","premios":"199462189","fondo_bote":"40768101","escrutinio":[{"tipo":"Pleno
+        al 15 ","categoria":1,"premio":"0","ganadores":"0"},{"tipo":"1\u00aa (14 Aciertos)
+        ","categoria":2,"premio":"0","ganadores":"0"},{"tipo":"2\u00aa (13 Aciertos)
+        ","categoria":3,"premio":"20922,61","ganadores":"13"},{"tipo":"3\u00aa (12
+        Aciertos) ","categoria":4,"premio":"1289,07","ganadores":"211"},{"tipo":"4\u00aa
+        (11 Aciertos) ","categoria":5,"premio":"127,7","ganadores":"2130"},{"tipo":"5\u00aa
+        (10 Aciertos) ","categoria":6,"premio":"24,76","ganadores":"13184"}],"partidos":[{"posicion":1,"idLocal":374,"local":"Alav\u00e9s","idVisitante":6,"visitante":"Levante","signo":"X
+        ","marcador":"2 - 2","fecha":"08-05-2021","hora":"14:00","fecha_completa":"2021-05-08
+        14:00:00"},{"posicion":2,"idLocal":4,"local":"Barcelona","idVisitante":3,"visitante":"At.
+        Madrid","signo":"X ","marcador":"0 - 0","fecha":"08-05-2021","hora":"16:15","fecha_completa":"2021-05-08
+        16:15:00"},{"posicion":3,"idLocal":110,"local":"C\u00e1diz","idVisitante":200,"visitante":"Huesca","signo":"1
+        ","marcador":"2 - 1","fecha":"08-05-2021","hora":"18:30","fecha_completa":"2021-05-08
+        18:30:00"},{"posicion":4,"idLocal":1,"local":"Athletic Club","idVisitante":2,"visitante":"Osasuna","signo":"X
+        ","marcador":"2 - 2","fecha":"08-05-2021","hora":"21:00","fecha_completa":"2021-05-08
+        21:00:00"},{"posicion":5,"idLocal":5,"local":"Getafe","idVisitante":124,"visitante":"Eibar","signo":"2
+        ","marcador":"0 - 1","fecha":"09-05-2021","hora":"14:00","fecha_completa":"2021-05-09
+        14:00:00"},{"posicion":6,"idLocal":19,"local":"Valencia","idVisitante":15,"visitante":"Valladolid","signo":"1
+        ","marcador":"3 - 0","fecha":"09-05-2021","hora":"16:15","fecha_completa":"2021-05-09
+        16:15:00"},{"posicion":7,"idLocal":20,"local":"Villarreal","idVisitante":111,"visitante":"Celta","signo":"2
+        ","marcador":"2 - 4","fecha":"09-05-2021","hora":"18:30","fecha_completa":"2021-05-09
+        18:30:00"},{"posicion":8,"idLocal":12,"local":"Real Madrid","idVisitante":17,"visitante":"Sevilla","signo":"X
+        ","marcador":"2 - 2","fecha":"09-05-2021","hora":"21:00","fecha_completa":"2021-05-09
+        21:00:00"},{"posicion":9,"idLocal":604,"local":"Alcorc\u00f3n","idVisitante":126,"visitante":"Las
+        Palmas","signo":"X ","marcador":"0 - 0","fecha":"08-05-2021","hora":"20:30","fecha_completa":"2021-05-08
+        20:30:00"},{"posicion":10,"idLocal":113,"local":"M\u00e1laga","idVisitante":10,"visitante":"Mallorca","signo":"X
+        ","marcador":"1 - 1","fecha":"08-05-2021","hora":"21:00","fecha_completa":"2021-05-08
+        21:00:00"},{"posicion":11,"idLocal":965,"local":"Mirand\u00e9s","idVisitante":2589,"visitante":"Fuenlabrada","signo":"1
+        ","marcador":"2 - 1","fecha":"09-05-2021","hora":"14:00","fecha_completa":"2021-05-09
+        14:00:00"},{"posicion":12,"idLocal":701,"local":"Logro\u00f1\u00e9s","idVisitante":166,"visitante":"Girona","signo":"2
+        ","marcador":"1 - 4","fecha":"09-05-2021","hora":"18:15","fecha_completa":"2021-05-09
+        18:15:00"},{"posicion":13,"idLocal":1000,"local":"R. Oviedo","idVisitante":907,"visitante":"Sabadell","signo":"1
+        ","marcador":"2 - 1","fecha":"09-05-2021","hora":"16:00","fecha_completa":"2021-05-09
+        16:00:00"},{"posicion":14,"idLocal":16,"local":"Zaragoza","idVisitante":9,"visitante":"Espanyol","signo":"X
+        ","marcador":"0 - 0","fecha":"08-05-2021","hora":"18:15","fecha_completa":"2021-05-08
+        18:15:00"},{"posicion":15,"idLocal":11,"local":"Betis","idVisitante":564,"visitante":"Granada","signo":"2-1","marcador":"2
+        - 1","fecha":"10-05-2021","hora":"21:00","fecha_completa":"2021-05-10 21:00:00"}],"temporada":"2020-2021","jornada":"48","contenidosRelacionados":{"noticias":[{"tituloRelacion":"Bote
+        Automatico","tituloContenido":"La Quiniela: bote de 1.100.000\u20ac","urlContenido":"/la-quiniela/botes/la-quiniela-bote-de-1-100-000euro-09-de-mayo-de-2021"},{"tituloRelacion":"Resultado
+        Automatico","tituloContenido":"La Quiniela: resultados del 09 de mayo de 2021","urlContenido":"/la-quiniela/resultados/la-quiniela-resultados-del-09-de-mayo-de-2021"},{"tituloRelacion":"Escrutinio
+        Automatico","tituloContenido":"La Quiniela: premios y ganadores del 09 de
+        mayo de 2021","urlContenido":"/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-09-de-mayo-de-2021"}],"enlaces":[],"puntosDeVenta":[],"documentos":[{"tituloRelacion":null,"tituloContenido":"Nota
+        de prensa del sorteo del 09/05/2021 Quiniela","urlContenido":"/f/loterias/documentos/Quiniela/Notas
+        de prensa/NOTA_DE_PRENSA_DE_LA_QUINIELA_DE_FECHA_10_05_21.pdf"}],"imagenes":[],"preguntasFrecuentes":[],"paginasLibres":[]},"elige8":{"gameid":"ELG8","relsorteoid_asociado":"1127113024","activo":"1"},"escrutinioElige8":[{"tipo":"8
+        Acertados 8 ","categoria":1,"premio":"3372,31","ganadores":"15"}]},{"fecha_sorteo":"2021-05-02
+        22:54:00","dia_semana":"domingo","id_sorteo":"1126406023","game_id":"LAQU","anyo":"2021","numero":23,"premio_bote":"0","cdc":"11264","apuestas":"4507238","recaudacion":"338042850","combinacion":"1
+        - 2 - 1 - 1 - X - 1 - 2 - 2 - X - 1 - 1 - 1 - 1 - X - 01","premios":"185923568","fondo_bote":"0","escrutinio":[{"tipo":"Pleno
+        al 15 ","categoria":1,"premio":"0","ganadores":"0"},{"tipo":"1\u00aa (14 Aciertos)
+        ","categoria":2,"premio":"49169,87","ganadores":"11"},{"tipo":"2\u00aa (13
+        Aciertos) ","categoria":3,"premio":"810,01","ganadores":"313"},{"tipo":"3\u00aa
+        (12 Aciertos) ","categoria":4,"premio":"49,45","ganadores":"5127"},{"tipo":"4\u00aa
+        (11 Aciertos) ","categoria":5,"premio":"6,33","ganadores":"40037"},{"tipo":"5\u00aa
+        (10 Aciertos) ","categoria":6,"premio":"1,67","ganadores":"181711"}],"partidos":[{"posicion":1,"idLocal":124,"local":"Eibar","idVisitante":374,"visitante":"Alav\u00e9s","signo":"1
+        ","marcador":"3 - 0","fecha":"01-05-2021","hora":"14:00","fecha_completa":"2021-05-01
+        14:00:00"},{"posicion":2,"idLocal":131,"local":"Elche","idVisitante":3,"visitante":"At.
+        Madrid","signo":"2 ","marcador":"0 - 1","fecha":"01-05-2021","hora":"16:15","fecha_completa":"2021-05-01
+        16:15:00"},{"posicion":3,"idLocal":200,"local":"Huesca","idVisitante":125,"visitante":"Real
+        Sociedad","signo":"1 ","marcador":"1 - 0","fecha":"01-05-2021","hora":"18:30","fecha_completa":"2021-05-01
+        18:30:00"},{"posicion":4,"idLocal":12,"local":"Real Madrid","idVisitante":2,"visitante":"Osasuna","signo":"1
+        ","marcador":"2 - 0","fecha":"01-05-2021","hora":"21:00","fecha_completa":"2021-05-01
+        21:00:00"},{"posicion":5,"idLocal":15,"local":"Valladolid","idVisitante":11,"visitante":"Betis","signo":"X
+        ","marcador":"1 - 1","fecha":"02-05-2021","hora":"14:00","fecha_completa":"2021-05-02
+        14:00:00"},{"posicion":6,"idLocal":20,"local":"Villarreal","idVisitante":5,"visitante":"Getafe","signo":"1
+        ","marcador":"1 - 0","fecha":"02-05-2021","hora":"16:15","fecha_completa":"2021-05-02
+        16:15:00"},{"posicion":7,"idLocal":564,"local":"Granada","idVisitante":110,"visitante":"C\u00e1diz","signo":"2
+        ","marcador":"0 - 1","fecha":"02-05-2021","hora":"18:30","fecha_completa":"2021-05-02
+        18:30:00"},{"posicion":8,"idLocal":19,"local":"Valencia","idVisitante":4,"visitante":"Barcelona","signo":"2
+        ","marcador":"2 - 3","fecha":"02-05-2021","hora":"21:00","fecha_completa":"2021-05-02
+        21:00:00"},{"posicion":9,"idLocal":18,"local":"Almer\u00eda","idVisitante":1000,"visitante":"R.
+        Oviedo","signo":"X ","marcador":"2 - 2","fecha":"01-05-2021","hora":"18:15","fecha_completa":"2021-05-01
+        18:15:00"},{"posicion":10,"idLocal":166,"local":"Girona","idVisitante":108,"visitante":"Tenerife","signo":"1
+        ","marcador":"1 - 0","fecha":"01-05-2021","hora":"16:00","fecha_completa":"2021-05-01
+        16:00:00"},{"posicion":11,"idLocal":9,"local":"Espanyol","idVisitante":113,"visitante":"M\u00e1laga","signo":"1
+        ","marcador":"3 - 0","fecha":"02-05-2021","hora":"16:00","fecha_completa":"2021-05-02
+        16:00:00"},{"posicion":12,"idLocal":2589,"local":"Fuenlabrada","idVisitante":533,"visitante":"Cartagena","signo":"1
+        ","marcador":"2 - 1","fecha":"02-05-2021","hora":"14:00","fecha_completa":"2021-05-02
+        14:00:00"},{"posicion":13,"idLocal":126,"local":"Las Palmas","idVisitante":745,"visitante":"Ponferradina","signo":"1
+        ","marcador":"2 - 0","fecha":"02-05-2021","hora":"20:30","fecha_completa":"2021-05-02
+        20:30:00"},{"posicion":14,"idLocal":1151,"local":"Legan\u00e9s","idVisitante":107,"visitante":"Sporting","signo":"X
+        ","marcador":"0 - 0","fecha":"02-05-2021","hora":"18:15","fecha_completa":"2021-05-02
+        18:15:00"},{"posicion":15,"idLocal":17,"local":"Sevilla","idVisitante":1,"visitante":"Athletic
+        Club","signo":"0-1","marcador":"0 - 1","fecha":"03-05-2021","hora":"21:00","fecha_completa":"2021-05-03
+        21:00:00"}],"temporada":"2020-2021","jornada":"47","contenidosRelacionados":{"noticias":[{"tituloRelacion":"Resultado
+        Automatico","tituloContenido":"La Quiniela: resultados del 02 de mayo de 2021","urlContenido":"/la-quiniela/resultados/la-quiniela-resultados-del-02-de-mayo-de-2021"},{"tituloRelacion":"Escrutinio
+        Automatico","tituloContenido":"La Quiniela: premios y ganadores del 02 de
+        mayo de 2021","urlContenido":"/la-quiniela/escrutinios/la-quiniela-premios-y-ganadores-del-02-de-mayo-de-2021"},{"tituloRelacion":"Premio
+        Automatico 2","tituloContenido":"Premio de 14 aciertos de La Quiniela del
+        02 de mayo de 2021","urlContenido":"/premios/premio-de-14-aciertos-de-la-quiniela-del-02-de-mayo-de-2021"}],"enlaces":[],"puntosDeVenta":[],"documentos":[{"tituloRelacion":null,"tituloContenido":"Nota
+        de prensa de la jornada del 02/05/2021 La Quiniela","urlContenido":"/f/loterias/documentos/Quiniela/Notas
+        de prensa/NOTA_DE_PRENSA_DE_LA_QUINIELA_DE_FECHA_02_05_21.pdf"}],"imagenes":[],"preguntasFrecuentes":[],"paginasLibres":[]},"elige8":{"gameid":"ELG8","relsorteoid_asociado":"1126413023","activo":"1"},"escrutinioElige8":[{"tipo":"8
+        Acertados 8 ","categoria":1,"premio":"102,73","ganadores":"477"}]}]'
+  recorded_at: Sun, 29 Aug 2021 09:56:08 GMT
+recorded_with: VCR 6.0.0

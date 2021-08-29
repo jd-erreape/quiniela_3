@@ -27,7 +27,7 @@ module Quiniela
       end
 
       def client_response
-        Clients::CurrentRound.new.page.body
+        Clients::CurrentRound.new.get.body
       end
 
       def first_matches
