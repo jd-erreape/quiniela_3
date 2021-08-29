@@ -8,6 +8,8 @@
 
 **Closed issues:**
 
+- \[Task\] Integrate Release task to automate CHANGELOG.md when tagging [\#15](https://github.com/jd-erreape/quiniela/issues/15)
+- \[Task\] Integrate Pre Release task to automate CHANGELOG.md generation [\#13](https://github.com/jd-erreape/quiniela/issues/13)
 - \[Task\] Build a Results parser that returns the results for a given round [\#11](https://github.com/jd-erreape/quiniela/issues/11)
 - \[Task\] Build Quiniela results client [\#9](https://github.com/jd-erreape/quiniela/issues/9)
 - \[Task\] Create a Round Matches retriever [\#7](https://github.com/jd-erreape/quiniela/issues/7)
@@ -16,6 +18,7 @@
 
 **Merged pull requests:**
 
+- \[Task\] Integrate Release task to automate CHANGELOG.md when tagging [\#16](https://github.com/jd-erreape/quiniela/pull/16)
 - \[Issues/13\] \[Task\] Integrate Pre Release task to automate CHANGELOG.md generation [\#14](https://github.com/jd-erreape/quiniela/pull/14)
 - \[Issues/11\] \[Task\] Build a Results parser that returns the results for a given round [\#12](https://github.com/jd-erreape/quiniela/pull/12)
 - \[Issues/9\] \[Task\] Build Quiniela results client [\#10](https://github.com/jd-erreape/quiniela/pull/10)
