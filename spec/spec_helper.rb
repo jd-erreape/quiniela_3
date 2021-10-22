@@ -3,6 +3,7 @@
 require "vcr"
 require "webmock"
 require "quiniela"
+require_relative "./support/skip_ssl"
 
 def bypass_vcr?
   ENV["BYPASS_VCR"] == "true"
