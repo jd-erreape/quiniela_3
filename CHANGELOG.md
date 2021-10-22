@@ -1,5 +1,15 @@
 # Changelog
 
+## [Unreleased](https://github.com/jd-erreape/quiniela/tree/HEAD)
+
+**Closed issues:**
+
+- \[Fix\] Fix time dependent spec  [\#19](https://github.com/jd-erreape/quiniela/issues/19)
+
+**Merged pull requests:**
+
+- \[Issues/19\] \[Fix\] Fix time dependent spec [\#20](https://github.com/jd-erreape/quiniela/pull/20)
+
 ## [v0.1.0](https://github.com/jd-erreape/quiniela/tree/v0.1.0) (2021-08-29)
 
 **Fixed bugs:**
