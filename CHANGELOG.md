@@ -4,11 +4,14 @@
 
 **Closed issues:**
 
+- \[Task\] Explore adding Zeitwerk as code loader [\#21](https://github.com/jd-erreape/quiniela/issues/21)
 - \[Fix\] Fix time dependent spec  [\#19](https://github.com/jd-erreape/quiniela/issues/19)
 
 **Merged pull requests:**
 
+- \[issues/21\] \[Task\] Explore adding Zeitwerk as code loader [\#23](https://github.com/jd-erreape/quiniela/pull/23)
 - \[Issues/19\] \[Fix\] Fix time dependent spec [\#20](https://github.com/jd-erreape/quiniela/pull/20)
+- \[Issues/3\] \[Task\] Create a round number retriever [\#4](https://github.com/jd-erreape/quiniela/pull/4)
 
 ## [v0.1.0](https://github.com/jd-erreape/quiniela/tree/v0.1.0) (2021-08-29)
 
@@ -34,7 +37,6 @@
 - \[Issues/9\] \[Task\] Build Quiniela results client [\#10](https://github.com/jd-erreape/quiniela/pull/10)
 - \[Issues/7\] \[Task\] Create a Round Matches retriever [\#8](https://github.com/jd-erreape/quiniela/pull/8)
 - \[Issues/5\] \[Bug\] Investigate and fix why when bypassing VCR specs are… [\#6](https://github.com/jd-erreape/quiniela/pull/6)
-- \[Issues/3\] \[Task\] Create a round number retriever [\#4](https://github.com/jd-erreape/quiniela/pull/4)
 - \[Issues/1\] \[Task\] Install HTTParty and build a client to fetch the current Quiniela round page [\#2](https://github.com/jd-erreape/quiniela/pull/2)
 
 
