@@ -8,9 +8,9 @@ module Quiniela
       base_uri "https://www.loteriasyapuestas.es"
 
       ENDPOINT = "/servicios/buscadorSorteos"
-      FOUR_MONTHS = 3600 * 24 * 31 * 4
+      OFFSET = 3600 * 24 * 31 * 4 # Four montsh from now
 
-      def initialize(start_date: Time.now - FOUR_MONTHS, end_date: Time.now)
+      def initialize(start_date: Time.now - OFFSET, end_date: Time.now)
         @start_date = start_date
         @end_date = end_date
 

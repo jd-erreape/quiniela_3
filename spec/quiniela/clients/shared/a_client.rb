@@ -8,7 +8,7 @@ RSpec.shared_examples "a client" do
   end
 
   describe "#get" do
-    subject { described_class.new.get }
+    subject { described_class.new(**params).get }
 
     it "retrieves the given page from the third party service", :vcr do
       response = subject
