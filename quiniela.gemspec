@@ -30,8 +30,10 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "httparty", ">= 0.18.1"
   spec.add_dependency "nokogiri", ">= 1.12.3"
+  spec.add_dependency "sorbet-runtime", ">= 0.5.9262"
   spec.add_dependency "zeitwerk", ">= 2.5.1"
   spec.add_development_dependency "pry", ">= 0.14.0"
+  spec.add_development_dependency "sorbet", ">= 0.5.9262"
   spec.add_development_dependency "vcr", ">= 6.0.0"
   spec.add_development_dependency "webmock", ">= 3.14.0"
 
