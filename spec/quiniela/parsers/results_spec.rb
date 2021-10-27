@@ -1,4 +1,7 @@
+# typed: false
 # frozen_string_literal: true
+
+require_relative "../../support/constants"
 
 RSpec.shared_examples "round matches" do
   it "returns a multidimensional array with all the given matches and their result" do
@@ -17,6 +20,8 @@ end
 
 RSpec.describe Quiniela::Parsers::Results do
   let(:instance) { described_class.new }
+
+  before { allow(Time).to receive(:now) { TIME_NOW } }
 
   describe "#round", :vcr do
     subject { instance.round(round_number) }
